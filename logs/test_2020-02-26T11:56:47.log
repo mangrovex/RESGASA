@@ -1,0 +1,67 @@
+11:56:47.791 [INFO ] i.g.c.c.GatlingConfiguration$ - Gatling will try to use 'gatling.conf' as custom config file.
+11:56:48.523 [INFO ] a.e.s.Slf4jLogger - Slf4jLogger started
+11:56:50.098 [INFO ] i.g.h.e.HttpEngine - Start warm up
+11:56:51.198 [INFO ] i.g.h.e.HttpEngine - Couldn't execute warm up request https://gatling.io: i.g.h.c.i.RequestTimeoutException: Request timeout after 1000 ms
+11:56:51.200 [INFO ] i.g.h.e.HttpEngine - Warm up done
+11:56:52.188 [INFO ] i.g.c.s.w.LogFileDataWriter - Initializing
+11:56:52.198 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initializing
+11:56:52.206 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initialized
+11:56:52.213 [INFO ] i.g.c.s.w.LogFileDataWriter - Initialized
+11:56:52.235 [INFO ] i.g.c.c.i.Injector - StoppedInjecting
+11:56:54.753 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Factura' failed for user 1: status.find.is(200), but actually found 500
+11:56:54.789 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Factura: KO status.find.is(200), but actually found 500
+=========================
+Session:
+Session(Facturas,1,1582736212231,Map(Quantity -> 1, U_HBT_GuiaPadre -> 783, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@86f08f9, Comments -> Fact6368a, tokenType -> bearer, 20e3acd0-6266-4edd-849f-6cb98bf78150 -> 0, nueva_factura -> {"error":{"code":"","message":"An error has occurred.","innererror":{"message":"NotFound Not Found","type":"System.Exception","stacktrace":""}}}, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@6f6ccffd,None), ItemCode -> 0500000400, CardCode -> 122424, tokenId -> 1ZP88ixZjCSLzkAG4_tdU7DueCqG2yLXJRhWuOA2yNWNINDcXOK7M_NRRPUBpYPqHULEqsTqDed7An7-j06se-0smDuzcEMz7EAnMo81PfEWNnV6KojeTIBoOheiepgLWi6WhtILsi6srhg3GBRacn4uW9FjO26H_WaKtp5SUcA6RhfONEYezd6ivrC0rj3WhwHVtMbqR8pfy6XweBB5zrawVHU_3TqaCQY9eEbZik-j4F-v7SfpUCXv0IaepiV8Z_3Crt7fU-w9-BB7Rb3tky9SRN6ElemjjAD6BhWvX0RK6h3lDHFrETSPztj2fAhfJ0r8s1cBZmOPr7yrDmygxg, DocDate -> 2020-02-26, WarehouseCode -> 442PRU2),120,KO,List(ExitOnCompleteLoopBlock(20e3acd0-6266-4edd-849f-6cb98bf78150)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@209ded66)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Factura
+headers=
+Authorization: bearer 1ZP88ixZjCSLzkAG4_tdU7DueCqG2yLXJRhWuOA2yNWNINDcXOK7M_NRRPUBpYPqHULEqsTqDed7An7-j06se-0smDuzcEMz7EAnMo81PfEWNnV6KojeTIBoOheiepgLWi6WhtILsi6srhg3GBRacn4uW9FjO26H_WaKtp5SUcA6RhfONEYezd6ivrC0rj3WhwHVtMbqR8pfy6XweBB5zrawVHU_3TqaCQY9eEbZik-j4F-v7SfpUCXv0IaepiV8Z_3Crt7fU-w9-BB7Rb3tky9SRN6ElemjjAD6BhWvX0RK6h3lDHFrETSPztj2fAhfJ0r8s1cBZmOPr7yrDmygxg
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 241
+byteArraysBody={
+    "CardCode": "122424",
+    "DocDate": "2020-02-26",
+    "U_HBT_GuiaPadre": 783,
+    "Comments": "Fact6368a",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000400",
+            "Quantity": "1"
+        }
+    ]
+}
+=========================
+HTTP response:
+status=
+500 Internal Server Error
+headers= 
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; odata.metadata=minimal
+Expires: -1
+Server: Microsoft-IIS/8.5
+OData-Version: 4.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 26 Feb 2020 16:56:55 GMT
+Content-Length: 144
+
+body=
+{"error":{"code":"","message":"An error has occurred.","innererror":{"message":"NotFound Not Found","type":"System.Exception","stacktrace":""}}}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:56:55.648 [INFO ] i.g.c.c.i.Injector - All users of scenario Facturas are stopped
+11:56:55.648 [INFO ] i.g.c.c.i.Injector - Stopping
+11:56:55.651 [INFO ] i.g.c.c.Controller - Injector has stopped, initiating graceful stop
+11:56:55.678 [INFO ] i.g.c.c.Controller - StatsEngineStopped
+11:56:55.752 [INFO ] i.g.c.s.LogFileReader - Collected ArrayBuffer(/home/manexware/QiriQ/resgasa/target/gatling/resgasasimulation-20200226165649731/simulation.log) from resgasasimulation-20200226165649731
+11:56:55.764 [INFO ] i.g.c.s.LogFileReader - First pass
+11:56:55.772 [INFO ] i.g.c.s.LogFileReader - First pass done: read 5 lines
+11:56:55.784 [INFO ] i.g.c.s.LogFileReader - Second pass
+11:56:55.813 [INFO ] i.g.c.s.LogFileReader - Second pass: read 5 lines

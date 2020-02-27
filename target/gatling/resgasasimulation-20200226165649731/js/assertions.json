@@ -1,0 +1,10 @@
+{
+  "simulation": "ResgasaSimulation",
+  "simulationId": "resgasasimulation",
+  "start": 1582736209731,
+  "description": "",
+  "scenarios": ["Facturas"],
+  "assertions": [
+
+  ]
+}

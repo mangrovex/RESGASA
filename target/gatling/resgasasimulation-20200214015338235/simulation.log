@@ -1,0 +1,445 @@
+RUN	ResgasaSimulation	resgasasimulation	1581645218235	 	3.3.1
+USER	Pedido	1	START	1581645221716	1581645221716
+USER	Pedido	8	START	1581645221793	1581645221793
+USER	Pedido	13	START	1581645221827	1581645221827
+USER	Pedido	14	START	1581645221827	1581645221827
+USER	Pedido	3	START	1581645221716	1581645221716
+USER	Pedido	2	START	1581645221716	1581645221716
+USER	Pedido	16	START	1581645221829	1581645221829
+USER	Pedido	10	START	1581645221806	1581645221806
+USER	Pedido	12	START	1581645221818	1581645221818
+USER	Pedido	19	START	1581645221832	1581645221832
+USER	Pedido	17	START	1581645221831	1581645221831
+USER	Pedido	6	START	1581645221792	1581645221792
+USER	Pedido	20	START	1581645221832	1581645221832
+USER	Pedido	22	START	1581645221834	1581645221834
+USER	Pedido	24	START	1581645221835	1581645221835
+USER	Pedido	25	START	1581645221835	1581645221835
+USER	Pedido	23	START	1581645221834	1581645221834
+USER	Pedido	15	START	1581645221828	1581645221828
+USER	Pedido	29	START	1581645221837	1581645221837
+USER	Pedido	27	START	1581645221836	1581645221836
+USER	Pedido	31	START	1581645221838	1581645221838
+USER	Pedido	28	START	1581645221837	1581645221837
+USER	Pedido	32	START	1581645221839	1581645221839
+USER	Pedido	30	START	1581645221838	1581645221838
+USER	Pedido	18	START	1581645221831	1581645221831
+USER	Pedido	26	START	1581645221836	1581645221836
+USER	Pedido	34	START	1581645221840	1581645221840
+USER	Pedido	33	START	1581645221839	1581645221839
+USER	Pedido	38	START	1581645221842	1581645221842
+USER	Pedido	40	START	1581645221844	1581645221844
+USER	Pedido	35	START	1581645221840	1581645221840
+USER	Pedido	39	START	1581645221843	1581645221843
+USER	Pedido	41	START	1581645221845	1581645221845
+USER	Pedido	44	START	1581645221846	1581645221846
+USER	Pedido	45	START	1581645221847	1581645221847
+USER	Pedido	42	START	1581645221846	1581645221846
+USER	Pedido	36	START	1581645221841	1581645221841
+USER	Pedido	47	START	1581645221847	1581645221847
+USER	Pedido	21	START	1581645221833	1581645221833
+USER	Pedido	49	START	1581645221849	1581645221849
+USER	Pedido	50	START	1581645221849	1581645221849
+USER	Pedido	51	START	1581645221850	1581645221850
+USER	Pedido	37	START	1581645221842	1581645221842
+USER	Pedido	52	START	1581645221851	1581645221851
+USER	Pedido	54	START	1581645221851	1581645221851
+USER	Pedido	9	START	1581645221794	1581645221794
+USER	Pedido	55	START	1581645221852	1581645221852
+USER	Pedido	57	START	1581645221852	1581645221852
+USER	Pedido	58	START	1581645221853	1581645221853
+USER	Pedido	59	START	1581645221853	1581645221853
+USER	Pedido	61	START	1581645221854	1581645221854
+USER	Pedido	53	START	1581645221851	1581645221851
+USER	Pedido	63	START	1581645221857	1581645221857
+USER	Pedido	60	START	1581645221854	1581645221854
+USER	Pedido	62	START	1581645221855	1581645221855
+USER	Pedido	65	START	1581645221858	1581645221858
+USER	Pedido	66	START	1581645221859	1581645221859
+USER	Pedido	7	START	1581645221813	1581645221813
+USER	Pedido	67	START	1581645221860	1581645221860
+USER	Pedido	69	START	1581645221861	1581645221861
+USER	Pedido	64	START	1581645221858	1581645221858
+USER	Pedido	71	START	1581645221862	1581645221862
+USER	Pedido	72	START	1581645221862	1581645221862
+USER	Pedido	73	START	1581645221863	1581645221863
+USER	Pedido	74	START	1581645221864	1581645221864
+USER	Pedido	68	START	1581645221860	1581645221860
+USER	Pedido	56	START	1581645221852	1581645221852
+USER	Pedido	78	START	1581645221867	1581645221867
+USER	Pedido	46	START	1581645221847	1581645221847
+USER	Pedido	70	START	1581645221861	1581645221861
+USER	Pedido	80	START	1581645221869	1581645221869
+USER	Pedido	77	START	1581645221865	1581645221865
+USER	Pedido	4	START	1581645221719	1581645221719
+USER	Pedido	76	START	1581645221865	1581645221865
+USER	Pedido	75	START	1581645221864	1581645221864
+USER	Pedido	48	START	1581645221849	1581645221849
+USER	Pedido	43	START	1581645221846	1581645221846
+USER	Pedido	5	START	1581645221761	1581645221761
+USER	Pedido	79	START	1581645221868	1581645221868
+USER	Pedido	11	START	1581645221814	1581645221814
+REQUEST	74		ResgasaToken	1581645221865	1581645226682	OK	 
+REQUEST	29		ResgasaToken	1581645221837	1581645226683	OK	 
+REQUEST	28		ResgasaToken	1581645221839	1581645226682	OK	 
+REQUEST	33		ResgasaToken	1581645221843	1581645226682	OK	 
+REQUEST	24		ResgasaToken	1581645221836	1581645226682	OK	 
+REQUEST	14		ResgasaToken	1581645221828	1581645226684	OK	 
+REQUEST	51		ResgasaToken	1581645221851	1581645226682	OK	 
+REQUEST	7		ResgasaToken	1581645221819	1581645226693	OK	 
+REQUEST	13		ResgasaToken	1581645221828	1581645226863	OK	 
+REQUEST	2		ResgasaToken	1581645221819	1581645226863	OK	 
+REQUEST	5		ResgasaToken	1581645221822	1581645226878	OK	 
+REQUEST	20		ResgasaToken	1581645221834	1581645226871	OK	 
+REQUEST	27		ResgasaToken	1581645221837	1581645226879	OK	 
+REQUEST	79		ResgasaToken	1581645221883	1581645226871	OK	 
+REQUEST	41		ResgasaToken	1581645221845	1581645226875	OK	 
+REQUEST	8		ResgasaToken	1581645221822	1581645226874	OK	 
+REQUEST	78		ResgasaToken	1581645221868	1581645226875	OK	 
+REQUEST	15		ResgasaToken	1581645221829	1581645226897	OK	 
+REQUEST	22		ResgasaToken	1581645221835	1581645226903	OK	 
+REQUEST	60		ResgasaToken	1581645221855	1581645226893	OK	 
+REQUEST	43		ResgasaToken	1581645221878	1581645226893	OK	 
+REQUEST	4		ResgasaToken	1581645221822	1581645226905	OK	 
+REQUEST	11		ResgasaToken	1581645221823	1581645226905	OK	 
+REQUEST	17		ResgasaToken	1581645221834	1581645226896	OK	 
+REQUEST	53		ResgasaToken	1581645221856	1581645226906	OK	 
+REQUEST	77		ResgasaToken	1581645221871	1581645226907	OK	 
+REQUEST	6		ResgasaToken	1581645221819	1581645226908	OK	 
+REQUEST	61		ResgasaToken	1581645221855	1581645226910	OK	 
+REQUEST	54		ResgasaToken	1581645221852	1581645226910	OK	 
+REQUEST	16		ResgasaToken	1581645221830	1581645226896	OK	 
+REQUEST	47		ResgasaToken	1581645221849	1581645226914	OK	 
+REQUEST	32		ResgasaToken	1581645221840	1581645226914	OK	 
+REQUEST	69		ResgasaToken	1581645221862	1581645226912	OK	 
+REQUEST	71		ResgasaToken	1581645221863	1581645226917	OK	 
+REQUEST	56		ResgasaToken	1581645221867	1581645226917	OK	 
+REQUEST	62		ResgasaToken	1581645221859	1581645226912	OK	 
+REQUEST	48		ResgasaToken	1581645221878	1581645226919	OK	 
+REQUEST	30		ResgasaToken	1581645221840	1581645226919	OK	 
+REQUEST	59		ResgasaToken	1581645221854	1581645226922	OK	 
+REQUEST	12		ResgasaToken	1581645221823	1581645226922	OK	 
+REQUEST	21		ResgasaToken	1581645221849	1581645226921	OK	 
+REQUEST	57		ResgasaToken	1581645221853	1581645226907	OK	 
+REQUEST	44		ResgasaToken	1581645221846	1581645226924	OK	 
+REQUEST	67		ResgasaToken	1581645221861	1581645226924	OK	 
+REQUEST	76		ResgasaToken	1581645221874	1581645226926	OK	 
+REQUEST	75		ResgasaToken	1581645221878	1581645226928	OK	 
+REQUEST	68		ResgasaToken	1581645221865	1581645226929	OK	 
+REQUEST	49		ResgasaToken	1581645221850	1581645226930	OK	 
+REQUEST	45		ResgasaToken	1581645221847	1581645226927	OK	 
+REQUEST	1		ResgasaToken	1581645221824	1581645226932	OK	 
+REQUEST	34		ResgasaToken	1581645221842	1581645226891	OK	 
+REQUEST	72		ResgasaToken	1581645221863	1581645226921	OK	 
+REQUEST	52		ResgasaToken	1581645221852	1581645226931	OK	 
+REQUEST	66		ResgasaToken	1581645221860	1581645226936	OK	 
+REQUEST	38		ResgasaToken	1581645221843	1581645226922	OK	 
+REQUEST	63		ResgasaToken	1581645221858	1581645226933	OK	 
+REQUEST	80		ResgasaToken	1581645221870	1581645226940	OK	 
+REQUEST	37		ResgasaToken	1581645221846	1581645226933	OK	 
+REQUEST	36		ResgasaToken	1581645221848	1581645226938	OK	 
+REQUEST	3		ResgasaToken	1581645221819	1581645226942	OK	 
+REQUEST	55		ResgasaToken	1581645221853	1581645226942	OK	 
+REQUEST	46		ResgasaToken	1581645221869	1581645226944	OK	 
+REQUEST	65		ResgasaToken	1581645221859	1581645226946	OK	 
+REQUEST	70		ResgasaToken	1581645221870	1581645226951	OK	 
+REQUEST	73		ResgasaToken	1581645221864	1581645226953	OK	 
+REQUEST	19		ResgasaToken	1581645221833	1581645226944	OK	 
+REQUEST	10		ResgasaToken	1581645221822	1581645226938	OK	 
+REQUEST	23		ResgasaToken	1581645221836	1581645226951	OK	 
+REQUEST	64		ResgasaToken	1581645221862	1581645226941	OK	 
+REQUEST	31		ResgasaToken	1581645221839	1581645226958	OK	 
+REQUEST	39		ResgasaToken	1581645221845	1581645226961	OK	 
+REQUEST	40		ResgasaToken	1581645221844	1581645226961	OK	 
+REQUEST	26		ResgasaToken	1581645221841	1581645226962	OK	 
+REQUEST	58		ResgasaToken	1581645221854	1581645226964	OK	 
+REQUEST	9		ResgasaToken	1581645221823	1581645226955	OK	 
+REQUEST	25		ResgasaToken	1581645221836	1581645226968	OK	 
+REQUEST	42		ResgasaToken	1581645221847	1581645226968	OK	 
+REQUEST	18		ResgasaToken	1581645221841	1581645226969	OK	 
+REQUEST	35		ResgasaToken	1581645221845	1581645226956	OK	 
+REQUEST	50		ResgasaToken	1581645221850	1581645226971	OK	 
+REQUEST	51		Pedido	1581645226965	1581645228981	OK	 
+REQUEST	13		Pedido	1581645226981	1581645228980	OK	 
+REQUEST	33		Pedido	1581645226948	1581645229004	OK	 
+REQUEST	24		Pedido	1581645226958	1581645229011	OK	 
+REQUEST	79		Pedido	1581645226991	1581645229071	OK	 
+REQUEST	15		Pedido	1581645227003	1581645229105	OK	 
+REQUEST	14		Pedido	1581645226979	1581645229118	KO	status.find.is(200), but actually found 500
+REQUEST	27		Pedido	1581645226985	1581645229121	KO	status.find.is(200), but actually found 500
+REQUEST	28		Pedido	1581645226974	1581645229116	KO	status.find.is(200), but actually found 500
+REQUEST	29		Pedido	1581645226894	1581645229116	KO	status.find.is(200), but actually found 500
+REQUEST	17		Pedido	1581645227013	1581645229179	KO	status.find.is(200), but actually found 500
+REQUEST	5		Pedido	1581645227011	1581645229162	OK	 
+REQUEST	43		Pedido	1581645227009	1581645229184	OK	 
+REQUEST	77		Pedido	1581645227017	1581645229193	KO	status.find.is(200), but actually found 500
+REQUEST	74		Pedido	1581645226939	1581645229249	OK	 
+REQUEST	6		Pedido	1581645227018	1581645229251	OK	 
+REQUEST	53		Pedido	1581645227015	1581645229249	KO	status.find.is(200), but actually found 500
+REQUEST	16		Pedido	1581645227022	1581645229303	KO	status.find.is(200), but actually found 500
+REQUEST	56		Pedido	1581645227028	1581645229364	OK	 
+REQUEST	48		Pedido	1581645227035	1581645233139	OK	 
+REQUEST	21		Pedido	1581645227050	1581645238288	OK	 
+REQUEST	44		Pedido	1581645227047	1581645238401	OK	 
+REQUEST	67		Pedido	1581645227053	1581645238545	OK	 
+REQUEST	52		Pedido	1581645227071	1581645244106	OK	 
+REQUEST	3		Pedido	1581645227078	1581645251169	OK	 
+REQUEST	55		Pedido	1581645227081	1581645252305	OK	 
+REQUEST	80		Pedido	1581645227075	1581645255572	KO	status.find.is(200), but actually found 500
+REQUEST	4		Pedido	1581645227039	1581645258540	OK	 
+REQUEST	40		Pedido	1581645227093	1581645260885	OK	 
+REQUEST	26		Pedido	1581645227095	1581645261692	OK	 
+REQUEST	66		Pedido	1581645227073	1581645262994	OK	 
+REQUEST	18		Pedido	1581645227099	1581645264835	OK	 
+REQUEST	50		Pedido	1581645227101	1581645264837	OK	 
+REQUEST	2		Pedido	1581645226983	1581645266375	OK	 
+REQUEST	45		Pedido	1581645227064	1581645270319	OK	 
+REQUEST	53		Pedido	1581645230277	1581645271139	OK	 
+REQUEST	38		Pedido	1581645227074	1581645272898	OK	 
+REQUEST	71		Pedido	1581645227063	1581645275744	OK	 
+REQUEST	20		Pedido	1581645226988	1581645280864	OK	 
+REQUEST	69		Pedido	1581645227031	1581645283910	OK	 
+REQUEST	54		Pedido	1581645227020	1581645286448	OK	 
+REQUEST	7		Pedido	1581645226977	1581645286979	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	41		Pedido	1581645226993	1581645286993	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	8		Pedido	1581645226996	1581645286998	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	78		Pedido	1581645227001	1581645287002	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	22		Pedido	1581645227005	1581645287007	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	60		Pedido	1581645227007	1581645287008	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	61		Pedido	1581645227021	1581645287021	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	32		Pedido	1581645227026	1581645287026	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	47		Pedido	1581645227024	1581645287026	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	62		Pedido	1581645227029	1581645287030	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	30		Pedido	1581645227036	1581645287037	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	11		Pedido	1581645227038	1581645287038	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	12		Pedido	1581645227040	1581645287041	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	59		Pedido	1581645227042	1581645287042	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	57		Pedido	1581645227043	1581645287043	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	76		Pedido	1581645227056	1581645287057	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	75		Pedido	1581645227057	1581645287057	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	68		Pedido	1581645227058	1581645287059	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	49		Pedido	1581645227061	1581645287061	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	72		Pedido	1581645227068	1581645287069	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	34		Pedido	1581645227072	1581645287072	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	1		Pedido	1581645227066	1581645287074	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	37		Pedido	1581645227077	1581645287078	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	36		Pedido	1581645227079	1581645287079	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	46		Pedido	1581645227080	1581645287080	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	63		Pedido	1581645227076	1581645287077	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	10		Pedido	1581645227086	1581645287127	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	19		Pedido	1581645227085	1581645287127	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	35		Pedido	1581645227100	1581645287138	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	65		Pedido	1581645227082	1581645287139	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	64		Pedido	1581645227088	1581645287127	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	73		Pedido	1581645227083	1581645287141	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	23		Pedido	1581645227087	1581645287142	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	58		Pedido	1581645227096	1581645287138	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	42		Pedido	1581645227098	1581645287156	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	70		Pedido	1581645227084	1581645287137	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	31		Pedido	1581645227091	1581645287156	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	39		Pedido	1581645227092	1581645287160	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	9		Pedido	1581645227097	1581645287161	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	25		Pedido	1581645227099	1581645287163	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	26		Pedido	1581645262717	1581645288171	OK	 
+REQUEST	18		Pedido	1581645265858	1581645289151	OK	 
+REQUEST	33		Pedido	1581645229837	1581645289154	OK	 
+REQUEST	66		Pedido	1581645264007	1581645289181	KO	status.find.is(200), but actually found 500
+REQUEST	50		Pedido	1581645265859	1581645289196	OK	 
+REQUEST	51		Pedido	1581645229827	1581645289828	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	24		Pedido	1581645229847	1581645289848	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	29		Pedido	1581645229957	1581645289957	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	28		Pedido	1581645229958	1581645289959	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	14		Pedido	1581645229967	1581645289967	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	13		Pedido	1581645229997	1581645289997	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	79		Pedido	1581645230068	1581645290068	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	74		Pedido	1581645230097	1581645290097	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	15		Pedido	1581645230128	1581645290128	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	27		Pedido	1581645230130	1581645290130	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	5		Pedido	1581645230176	1581645290177	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	43		Pedido	1581645230187	1581645290188	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	17		Pedido	1581645230189	1581645290189	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	77		Pedido	1581645230227	1581645290227	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	6		Pedido	1581645230268	1581645290269	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	16		Pedido	1581645230296	1581645290297	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	56		Pedido	1581645230377	1581645290377	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	22		Pedido	1581645288027	1581645291187	OK	 
+REQUEST	41		Pedido	1581645287996	1581645291210	OK	 
+REQUEST	34		Pedido	1581645288048	1581645292515	OK	 
+REQUEST	10		Pedido	1581645288136	1581645293195	OK	 
+REQUEST	61		Pedido	1581645288037	1581645293240	OK	 
+REQUEST	48		Pedido	1581645234158	1581645294159	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	49		Pedido	1581645288078	1581645295171	OK	 
+REQUEST	8		Pedido	1581645287997	1581645297112	OK	 
+REQUEST	21		Pedido	1581645239308	1581645299308	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	44		Pedido	1581645239417	1581645299417	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	67		Pedido	1581645239557	1581645299559	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	52		Pedido	1581645245128	1581645305128	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	24		Pedido	1581645290847	1581645310572	OK	 
+REQUEST	3		Pedido	1581645252188	1581645312188	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	58		Pedido	1581645288159	1581645313176	OK	 
+REQUEST	55		Pedido	1581645253326	1581645313327	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	4		Pedido	1581645259557	1581645316443	KO	status.find.is(200), but actually found 500
+REQUEST	80		Pedido	1581645256587	1581645316587	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	30		Pedido	1581645288056	1581645317433	KO	status.find.is(200), but actually found 500
+REQUEST	38		Pedido	1581645273907	1581645317435	KO	status.find.is(200), but actually found 500
+REQUEST	40		Pedido	1581645261907	1581645321908	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	49		Pedido	1581645296177	1581645325449	OK	 
+REQUEST	8		Pedido	1581645298116	1581645325520	OK	 
+REQUEST	37		Pedido	1581645288127	1581645325729	KO	status.find.is(200), but actually found 500
+REQUEST	61		Pedido	1581645294247	1581645325780	OK	 
+REQUEST	76		Pedido	1581645288076	1581645326457	KO	status.find.is(200), but actually found 500
+REQUEST	64		Pedido	1581645288127	1581645326804	KO	status.find.is(200), but actually found 500
+REQUEST	62		Pedido	1581645288047	1581645326863	KO	status.find.is(200), but actually found 500
+REQUEST	12		Pedido	1581645288057	1581645326872	KO	status.find.is(200), but actually found 500
+REQUEST	35		Pedido	1581645288147	1581645327356	KO	status.find.is(200), but actually found 500
+REQUEST	2		Pedido	1581645267368	1581645327368	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	71		Pedido	1581645276757	1581645329925	KO	status.find.is(200), but actually found 500
+REQUEST	45		Pedido	1581645271337	1581645331338	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	53		Pedido	1581645272138	1581645332139	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	14		Pedido	1581645290957	1581645340837	KO	status.find.is(200), but actually found 500
+REQUEST	20		Pedido	1581645281857	1581645341858	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	72		Pedido	1581645288078	1581645342235	KO	status.find.is(200), but actually found 500
+REQUEST	42		Pedido	1581645288178	1581645342236	KO	status.find.is(200), but actually found 500
+REQUEST	79		Pedido	1581645291077	1581645342566	KO	status.find.is(200), but actually found 500
+REQUEST	31		Pedido	1581645288178	1581645342847	KO	status.find.is(200), but actually found 500
+REQUEST	5		Pedido	1581645291177	1581645343425	KO	status.find.is(200), but actually found 500
+REQUEST	32		Pedido	1581645288049	1581645343445	KO	status.find.is(200), but actually found 500
+REQUEST	77		Pedido	1581645291227	1581645344562	KO	status.find.is(200), but actually found 500
+REQUEST	43		Pedido	1581645291197	1581645344889	KO	status.find.is(200), but actually found 500
+REQUEST	69		Pedido	1581645284928	1581645344928	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	7		Pedido	1581645287826	1581645345807	KO	status.find.is(200), but actually found 500
+REQUEST	75		Pedido	1581645288077	1581645345844	KO	status.find.is(200), but actually found 500
+REQUEST	54		Pedido	1581645287467	1581645347467	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	78		Pedido	1581645287998	1581645347999	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	60		Pedido	1581645288016	1581645348017	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	57		Pedido	1581645288047	1581645348047	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	47		Pedido	1581645288048	1581645348049	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	11		Pedido	1581645288056	1581645348057	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	59		Pedido	1581645288066	1581645348067	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	68		Pedido	1581645288077	1581645348077	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	19		Pedido	1581645288137	1581645348137	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	36		Pedido	1581645288136	1581645348137	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	46		Pedido	1581645288146	1581645348146	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	63		Pedido	1581645288147	1581645348149	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	1		Pedido	1581645288156	1581645348157	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	65		Pedido	1581645288157	1581645348159	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	70		Pedido	1581645288157	1581645348164	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	9		Pedido	1581645288166	1581645348170	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	23		Pedido	1581645288177	1581645348178	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	73		Pedido	1581645288179	1581645348180	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	39		Pedido	1581645288180	1581645348180	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	25		Pedido	1581645288181	1581645348182	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	71		Pedido	1581645330927	1581645348435	OK	 
+REQUEST	48		Pedido	1581645295157	1581645348480	KO	status.find.is(200), but actually found 500
+REQUEST	33		Pedido	1581645290156	1581645348505	KO	status.find.is(200), but actually found 500
+REQUEST	26		Pedido	1581645289166	1581645349167	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	18		Pedido	1581645290146	1581645350147	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	50		Pedido	1581645290196	1581645350196	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	66		Pedido	1581645290197	1581645350199	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	51		Pedido	1581645290827	1581645350828	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	28		Pedido	1581645290969	1581645350970	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	29		Pedido	1581645290968	1581645350968	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	13		Pedido	1581645291007	1581645351008	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	74		Pedido	1581645291107	1581645351108	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	15		Pedido	1581645291127	1581645351127	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	27		Pedido	1581645291138	1581645351138	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	17		Pedido	1581645291197	1581645351198	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	59		Pedido	1581645349068	1581645351221	OK	 
+REQUEST	78		Pedido	1581645348996	1581645351268	KO	status.find.is(200), but actually found 500
+REQUEST	6		Pedido	1581645291277	1581645351277	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	16		Pedido	1581645291308	1581645351308	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	56		Pedido	1581645291387	1581645351388	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	1		Pedido	1581645349156	1581645351594	OK	 
+REQUEST	22		Pedido	1581645292187	1581645352187	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	41		Pedido	1581645292207	1581645352208	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	34		Pedido	1581645293527	1581645353528	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	23		Pedido	1581645349167	1581645353566	OK	 
+REQUEST	10		Pedido	1581645294196	1581645354196	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	4		Pedido	1581645317447	1581645355611	KO	status.find.is(200), but actually found 500
+REQUEST	30		Pedido	1581645318427	1581645356260	KO	status.find.is(200), but actually found 500
+REQUEST	38		Pedido	1581645318437	1581645356475	KO	status.find.is(200), but actually found 500
+REQUEST	24		Pedido	1581645311577	1581645356545	KO	status.find.is(200), but actually found 500
+REQUEST	58		Pedido	1581645314177	1581645357014	KO	status.find.is(200), but actually found 500
+REQUEST	80		Pedido	1581645317597	1581645357175	KO	status.find.is(200), but actually found 500
+REQUEST	40		Pedido	1581645322907	1581645358044	KO	status.find.is(200), but actually found 500
+REQUEST	37		Pedido	1581645326696	1581645358064	KO	status.find.is(200), but actually found 500
+REQUEST	76		Pedido	1581645327456	1581645358508	KO	status.find.is(200), but actually found 500
+REQUEST	56		Pedido	1581645352386	1581645359108	OK	 
+REQUEST	64		Pedido	1581645327807	1581645359160	KO	status.find.is(200), but actually found 500
+REQUEST	12		Pedido	1581645327876	1581645359878	KO	status.find.is(200), but actually found 500
+REQUEST	62		Pedido	1581645327856	1581645359882	KO	status.find.is(200), but actually found 500
+REQUEST	44		Pedido	1581645300427	1581645360192	KO	status.find.is(200), but actually found 500
+REQUEST	55		Pedido	1581645314317	1581645360209	KO	status.find.is(200), but actually found 500
+REQUEST	78		Pedido	1581645352276	1581645360239	KO	status.find.is(200), but actually found 500
+REQUEST	21		Pedido	1581645300307	1581645360308	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	49		Pedido	1581645326457	1581645360561	KO	status.find.is(200), but actually found 500
+REQUEST	67		Pedido	1581645300567	1581645360567	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	8		Pedido	1581645326516	1581645361124	KO	status.find.is(200), but actually found 500
+REQUEST	35		Pedido	1581645328357	1581645361570	KO	status.find.is(200), but actually found 500
+REQUEST	2		Pedido	1581645328376	1581645363035	KO	status.find.is(200), but actually found 500
+REQUEST	52		Pedido	1581645306127	1581645366127	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	67		Pedido	1581645361566	1581645367352	KO	status.find.is(200), but actually found 500
+REQUEST	73		Pedido	1581645349177	1581645369314	OK	 
+REQUEST	61		Pedido	1581645326776	1581645371429	KO	status.find.is(200), but actually found 500
+REQUEST	14		Pedido	1581645341847	1581645372874	KO	status.find.is(200), but actually found 500
+REQUEST	3		Pedido	1581645313187	1581645373188	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	31		Pedido	1581645343846	1581645373986	KO	status.find.is(200), but actually found 500
+REQUEST	42		Pedido	1581645343228	1581645374194	KO	status.find.is(200), but actually found 500
+REQUEST	73		Pedido	1581645370326	1581645374863	OK	 
+REQUEST	79		Pedido	1581645343566	1581645374888	KO	status.find.is(200), but actually found 500
+REQUEST	31		Pedido	1581645374987	1581645375198	KO	status.find.is(200), but actually found 500
+REQUEST	17		Pedido	1581645352197	1581645375219	OK	 
+REQUEST	72		Pedido	1581645343227	1581645375259	KO	status.find.is(200), but actually found 500
+REQUEST	77		Pedido	1581645345556	1581645375847	KO	status.find.is(200), but actually found 500
+REQUEST	80		Pedido	1581645358176	1581645376214	OK	 
+REQUEST	40		Pedido	1581645359046	1581645376216	OK	 
+REQUEST	60		Pedido	1581645349026	1581645376894	KO	status.find.is(200), but actually found 500
+REQUEST	7		Pedido	1581645346807	1581645376894	KO	status.find.is(200), but actually found 500
+REQUEST	75		Pedido	1581645346838	1581645376901	KO	status.find.is(200), but actually found 500
+REQUEST	69		Pedido	1581645345927	1581645376921	KO	status.find.is(200), but actually found 500
+REQUEST	50		Pedido	1581645351196	1581645377314	KO	status.find.is(200), but actually found 500
+REQUEST	79		Pedido	1581645375886	1581645377381	OK	 
+REQUEST	79		Pedido	1581645378377	1581645379682	OK	 
+REQUEST	75		Pedido	1581645377906	1581645379994	KO	status.find.is(200), but actually found 500
+REQUEST	60		Pedido	1581645377887	1581645380164	OK	 
+REQUEST	55		Pedido	1581645361217	1581645380444	KO	status.find.is(200), but actually found 500
+REQUEST	52		Pedido	1581645367127	1581645384371	OK	 
+REQUEST	52		Pedido	1581645385376	1581645385469	OK	 
+REQUEST	26		Pedido	1581645350176	1581645385903	KO	status.find.is(200), but actually found 500
+REQUEST	29		Pedido	1581645351966	1581645387003	KO	status.find.is(200), but actually found 500
+REQUEST	27		Pedido	1581645352137	1581645387400	KO	status.find.is(200), but actually found 500
+REQUEST	6		Pedido	1581645352276	1581645388879	KO	status.find.is(200), but actually found 500
+REQUEST	1		Pedido	1581645352597	1581645389813	KO	status.find.is(200), but actually found 500
+REQUEST	4		Pedido	1581645356606	1581645389880	KO	status.find.is(200), but actually found 500
+REQUEST	30		Pedido	1581645357266	1581645389895	KO	status.find.is(200), but actually found 500
+REQUEST	6		Pedido	1581645389877	1581645390021	OK	 
+REQUEST	58		Pedido	1581645358006	1581645390255	KO	status.find.is(200), but actually found 500
+REQUEST	42		Pedido	1581645375207	1581645390389	OK	 
+REQUEST	23		Pedido	1581645354576	1581645390802	KO	status.find.is(200), but actually found 500
+REQUEST	45		Pedido	1581645332337	1581645392337	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	53		Pedido	1581645333136	1581645393137	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	56		Pedido	1581645360117	1581645393221	KO	status.find.is(200), but actually found 500
+REQUEST	62		Pedido	1581645360887	1581645393434	KO	status.find.is(200), but actually found 500
+REQUEST	12		Pedido	1581645360877	1581645395206	KO	status.find.is(200), but actually found 500
+REQUEST	20		Pedido	1581645342867	1581645402868	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	5		Pedido	1581645344436	1581645404436	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	32		Pedido	1581645344446	1581645404446	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	43		Pedido	1581645345886	1581645405887	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	17		Pedido	1581645376216	1581645406318	KO	status.find.is(200), but actually found 500
+REQUEST	77		Pedido	1581645376856	1581645406916	KO	status.find.is(200), but actually found 500
+REQUEST	65		Pedido	1581645349156	1581645407210	KO	status.find.is(200), but actually found 500
+REQUEST	76		Pedido	1581645359517	1581645407214	KO	status.find.is(200), but actually found 500
+REQUEST	40		Pedido	1581645377227	1581645407922	KO	status.find.is(200), but actually found 500
+REQUEST	80		Pedido	1581645377216	1581645407925	KO	status.find.is(200), but actually found 500
+REQUEST	54		Pedido	1581645348477	1581645408477	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	47		Pedido	1581645349046	1581645409046	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	57		Pedido	1581645349047	1581645409047	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	11		Pedido	1581645349067	1581645409069	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	68		Pedido	1581645349086	1581645409087	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	36		Pedido	1581645349096	1581645409097	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	42		Pedido	1581645391387	1581645409126	OK	 
+REQUEST	19		Pedido	1581645349136	1581645409136	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	80		Pedido	1581645408927	1581645409140	KO	status.find.is(200), but actually found 500
+REQUEST	46		Pedido	1581645349158	1581645409159	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	70		Pedido	1581645349167	1581645409167	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+REQUEST	63		Pedido	1581645349167	1581645409170	KO	

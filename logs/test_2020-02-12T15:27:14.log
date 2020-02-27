@@ -1,0 +1,102 @@
+15:27:15.052 [INFO ] i.g.c.c.GatlingConfiguration$ - Gatling will try to use 'gatling.conf' as custom config file.
+15:27:15.749 [INFO ] a.e.s.Slf4jLogger - Slf4jLogger started
+15:27:17.320 [INFO ] i.g.h.e.HttpEngine - Start warm up
+15:27:18.318 [INFO ] i.g.h.e.HttpEngine - Warm up done
+15:27:19.322 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initializing
+15:27:19.324 [INFO ] i.g.c.s.w.LogFileDataWriter - Initializing
+15:27:19.336 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initialized
+15:27:19.343 [INFO ] i.g.c.s.w.LogFileDataWriter - Initialized
+15:27:19.369 [INFO ] i.g.c.c.i.Injector - StoppedInjecting
+15:27:19.810 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 1: status.find.is(200), but actually found 500
+15:27:19.820 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO status.find.is(200), but actually found 500
+=========================
+Session:
+Session(Pedido,1,1581539239367,Map(ItemCode1 -> 0500000133, Address2 -> 59864C032 CONSUMIDOR FINAL, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:90, CostingCode1 -> 100, U_RSG_RUTA2 -> 83, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@24d99028, Quantity5 -> 10, Comments -> ResgasaTest55557148, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> 83, Address3 -> 59864C032 CONSUMIDOR FINAL, Address5 -> 59864C032 CONSUMIDOR FINAL, CostingCode2 -> 100, ItemCode4 -> 0500000768, Address4 -> 59864C032 CONSUMIDOR FINAL, 1c3b5ffa-d888-4d1c-90b5-92e7eddf45ea -> 0, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> 83, nuevo_pedido_test -> {"error":{"code":"","message":"An error has occurred.","innererror":{"message":"Error guardando en el log","type":"System.Exception","stacktrace":"   at DistribucionYLiquidacion.Framework.Utililes.UtilFile.EscribirEnArchivoDesdeAddon(String mensaje)\r\n   at WebApi.Controllers.PedidoController.<Post>d__3.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()"}}}, TaxDate -> 2020-02-12, Quantity1 -> 10, ItemCode3 -> 0500000765, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@2a94031e,None), U_RSG_RUTA3 -> 83, CardCode -> 86527, tokenId -> IGJ1XW6geRaG3kTMx2Ljg_SLLcyBmnDjsdAC57njpk52Il2pQKZS5eJNvNIlce4Cef8Xp1DQRDD_gyA-fpbLCFpQs4DHTwFkOBxTU-_01fqgp9M5V0JOo-dJfvn_0HHZCugX_YSxDA6Ca1-R6ziO-gUJzcI2PCd-3HlqSYz2ilMAquCwm-r1GJaX-DiUniuZiQzxSoDXlMmpM5ZsI_btISAN7uvSH29EhhWpsSsxjm9wGTKBGdjC67cyRtsBWAu6wg4rQkvS_yTzgnwLlxuDetSEsYJE4Vw3u7IAwhdph1vpaIu4T_H1A0PXTidCKLblqGcp8fP3dioUZn8leKDfag, U_RSG_RUTA5 -> 83, DocDueDate -> 2020-02-12, Quantity3 -> 2, Address1 -> 59864C032 CONSUMIDOR FINAL, ItemCode5 -> 0500000769, DocDate -> 2020-02-12, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000762, Quantity2 -> 12),127,KO,List(ExitOnCompleteLoopBlock(1c3b5ffa-d888-4d1c-90b5-92e7eddf45ea)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$497/1244815033@24facc03)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:90/odata/Pedido
+headers=
+Authorization: bearer IGJ1XW6geRaG3kTMx2Ljg_SLLcyBmnDjsdAC57njpk52Il2pQKZS5eJNvNIlce4Cef8Xp1DQRDD_gyA-fpbLCFpQs4DHTwFkOBxTU-_01fqgp9M5V0JOo-dJfvn_0HHZCugX_YSxDA6Ca1-R6ziO-gUJzcI2PCd-3HlqSYz2ilMAquCwm-r1GJaX-DiUniuZiQzxSoDXlMmpM5ZsI_btISAN7uvSH29EhhWpsSsxjm9wGTKBGdjC67cyRtsBWAu6wg4rQkvS_yTzgnwLlxuDetSEsYJE4Vw3u7IAwhdph1vpaIu4T_H1A0PXTidCKLblqGcp8fP3dioUZn8leKDfag
+Accept: application/json
+host: ws.resgasa.com.ec:90
+content-type: application/json
+content-length: 1382
+byteArraysBody={
+    "CardCode": "86527",
+    "DocDate": "2020-02-12",
+    "DocDueDate": "2020-02-12",
+    "TaxDate": "2020-02-12",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResgasaTest55557148",
+    "NumAtCard": "6697",
+    "ImportFileNum": "1946",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000133",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "83",
+            "Address": "59864C032 CONSUMIDOR FINAL"
+        },
+        {
+            "ItemCode": "0500000762",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "83",
+            "Address": "59864C032 CONSUMIDOR FINAL"
+        },
+        {
+            "ItemCode": "0500000765",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "83",
+            "Address": "59864C032 CONSUMIDOR FINAL"
+        },
+        {
+            "ItemCode": "0500000768",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "83",
+            "Address": "59864C032 CONSUMIDOR FINAL"
+        },
+        {
+            "ItemCode": "0500000769",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "83",
+            "Address": "59864C032 CONSUMIDOR FINAL"
+        }
+    ]
+}
+=========================
+HTTP response:
+status=
+500 Internal Server Error
+headers= 
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; odata.metadata=minimal
+Expires: -1
+Server: Microsoft-IIS/8.5
+OData-Version: 4.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 12 Feb 2020 20:27:19 GMT
+Content-Length: 2334
+
+body=
+{"error":{"code":"","message":"An error has occurred.","innererror":{"message":"Error guardando en el log","type":"System.Exception","stacktrace":"   at DistribucionYLiquidacion.Framework.Utililes.UtilFile.EscribirEnArchivoDesdeAddon(String mensaje)\r\n   at WebApi.Controllers.PedidoController.<Post>d__3.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()"}}}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:28:38.213 [INFO ] i.g.c.c.i.Injector - All users of scenario Pedido are stopped
+15:28:38.214 [INFO ] i.g.c.c.i.Injector - Stopping
+15:28:38.216 [INFO ] i.g.c.c.Controller - Injector has stopped, initiating graceful stop
+15:28:38.225 [INFO ] i.g.c.c.Controller - StatsEngineStopped
+15:28:38.302 [INFO ] i.g.c.s.LogFileReader - Collected ArrayBuffer(/home/manexware/QiriQ/resgasa/target/gatling/resgasasimulation-20200212202717026/simulation.log) from resgasasimulation-20200212202717026
+15:28:38.312 [INFO ] i.g.c.s.LogFileReader - First pass
+15:28:38.321 [INFO ] i.g.c.s.LogFileReader - First pass done: read 29 lines
+15:28:38.348 [INFO ] i.g.c.s.LogFileReader - Second pass
+15:28:38.394 [INFO ] i.g.c.s.LogFileReader - Second pass: read 29 lines

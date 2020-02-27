@@ -1,0 +1,65 @@
+11:54:10.993 [INFO ] i.g.c.c.GatlingConfiguration$ - Gatling will try to use 'gatling.conf' as custom config file.
+11:54:11.716 [INFO ] a.e.s.Slf4jLogger - Slf4jLogger started
+11:54:13.222 [INFO ] i.g.h.e.HttpEngine - Start warm up
+11:54:14.325 [INFO ] i.g.h.e.HttpEngine - Couldn't execute warm up request https://gatling.io: i.g.h.c.i.RequestTimeoutException: Request timeout after 1000 ms
+11:54:14.327 [INFO ] i.g.h.e.HttpEngine - Warm up done
+11:54:15.385 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initializing
+11:54:15.386 [INFO ] i.g.c.s.w.LogFileDataWriter - Initializing
+11:54:15.400 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initialized
+11:54:15.414 [INFO ] i.g.c.s.w.LogFileDataWriter - Initialized
+11:54:15.445 [INFO ] i.g.c.c.i.Injector - StoppedInjecting
+11:54:15.639 [ERROR] i.g.h.a.HttpRequestAction - 'httpRequest-4' failed to execute: No attribute named 'ItemCode1' is defined
+11:54:15.650 [ERROR] i.g.c.a.b.SessionHookBuilder$$anon$1 - 'hook-3' crashed on session Session(Facturas,1,1582736055433,Map(Quantity -> 1, U_HBT_GuiaPadre -> 783, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@e2ab47d, Comments -> Fact4799a, tokenType -> bearer, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@439bfe4e,None), ItemCode -> 0500000400, CardCode -> 5178, tokenId -> W2d2thjRTxhDZxtuMqAC9BPNNI0GkOo6PbOJi6SrxynFr_XvdSlKULMTmnFJftBVd61rU_kQCdlUxeDXrTur-Kg3gZHYXcup55ucd4XpKa_Ra-kltJu_k1Ihqye_0Wd7UsQKf6ZPiiL7h3gTfgU4wjmnObwxTcirR9DdI75XQrHRfa3FbtNBYxX2eQpy4ZLbs3PJAmkxOS4OGOtxMJzezMomPBZC8ieInZc7DAUO86Ul38hRaCPJquLTmnIWjmL0IPR0sC7H1iV9C_586dpjYjtBZiea_bnnu-5UzLpwhpX3xIFl9q7mbgtA1nrzvijF56lVq079ZwSNEoO9OwsdKQ, 438a7003-39f1-44fa-8c87-87f55a749305 -> 0, DocDate -> 2020-02-26, WarehouseCode -> 442PRU2),90,KO,List(ExitOnCompleteLoopBlock(438a7003-39f1-44fa-8c87-87f55a749305)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$498/374646930@3b1ab5cd), forwarding to the next one
+java.util.NoSuchElementException: No attribute named 'nueva_factura' is defined
+	at io.gatling.core.session.SessionAttribute.as(Session.scala:46)
+	at ResgasaTasks$.$anonfun$facturaTask$1(ResgasaTasks.scala:116)
+	at io.gatling.core.action.SessionHook.execute(SessionHook.scala:32)
+	at io.gatling.core.action.Action.$bang(Action.scala:38)
+	at io.gatling.core.action.Action.$bang$(Action.scala:38)
+	at io.gatling.core.action.SessionHook.io$gatling$core$action$ChainableAction$$super$$bang(SessionHook.scala:23)
+	at io.gatling.core.action.ChainableAction.$bang(Action.scala:63)
+	at io.gatling.core.action.ChainableAction.$bang$(Action.scala:61)
+	at io.gatling.core.action.builder.SessionHookBuilder$$anon$1.io$gatling$core$action$ExitableAction$$super$$bang(SessionHookBuilder.scala:29)
+	at io.gatling.core.action.ExitableAction.$bang(BlockExit.scala:141)
+	at io.gatling.core.action.ExitableAction.$bang$(BlockExit.scala:139)
+	at io.gatling.core.action.builder.SessionHookBuilder$$anon$1.$bang(SessionHookBuilder.scala:29)
+	at io.gatling.core.action.ChainableAction.$anonfun$recover$1(Action.scala:78)
+	at io.gatling.core.action.ChainableAction.$anonfun$recover$1$adapted(Action.scala:76)
+	at io.gatling.commons.validation.Failure.onFailure(Validation.scala:61)
+	at io.gatling.core.action.ChainableAction.recover(Action.scala:76)
+	at io.gatling.core.action.ChainableAction.recover$(Action.scala:75)
+	at io.gatling.http.action.HttpRequestAction.recover(HttpRequestAction.scala:34)
+	at io.gatling.core.action.RequestAction.execute(Action.scala:97)
+	at io.gatling.core.action.RequestAction.execute$(Action.scala:96)
+	at io.gatling.http.action.HttpRequestAction.execute(HttpRequestAction.scala:34)
+	at io.gatling.core.action.Action.$bang(Action.scala:38)
+	at io.gatling.core.action.Action.$bang$(Action.scala:38)
+	at io.gatling.http.action.HttpRequestAction.io$gatling$core$action$ChainableAction$$super$$bang(HttpRequestAction.scala:34)
+	at io.gatling.core.action.ChainableAction.$bang(Action.scala:63)
+	at io.gatling.core.action.ChainableAction.$bang$(Action.scala:61)
+	at io.gatling.http.action.HttpRequestAction.io$gatling$core$action$ExitableAction$$super$$bang(HttpRequestAction.scala:34)
+	at io.gatling.core.action.ExitableAction.$bang(BlockExit.scala:141)
+	at io.gatling.core.action.ExitableAction.$bang$(BlockExit.scala:139)
+	at io.gatling.http.action.HttpRequestAction.$bang(HttpRequestAction.scala:34)
+	at io.gatling.core.action.SingletonFeed$$anonfun$receive$1.applyOrElse(SingletonFeed.scala:71)
+	at akka.actor.Actor.aroundReceive(Actor.scala:539)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:537)
+	at io.gatling.core.akka.BaseActor.aroundReceive(BaseActor.scala:25)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:612)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:581)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:268)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:229)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:241)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+11:54:16.595 [INFO ] i.g.c.c.i.Injector - All users of scenario Facturas are stopped
+11:54:16.596 [INFO ] i.g.c.c.i.Injector - Stopping
+11:54:16.597 [INFO ] i.g.c.c.Controller - Injector has stopped, initiating graceful stop
+11:54:16.625 [INFO ] i.g.c.c.Controller - StatsEngineStopped
+11:54:16.685 [INFO ] i.g.c.s.LogFileReader - Collected ArrayBuffer(/home/manexware/QiriQ/resgasa/target/gatling/resgasasimulation-20200226165412915/simulation.log) from resgasasimulation-20200226165412915
+11:54:16.699 [INFO ] i.g.c.s.LogFileReader - First pass
+11:54:16.707 [INFO ] i.g.c.s.LogFileReader - First pass done: read 5 lines
+11:54:16.717 [INFO ] i.g.c.s.LogFileReader - Second pass
+11:54:16.741 [INFO ] i.g.c.s.LogFileReader - Second pass: read 5 lines

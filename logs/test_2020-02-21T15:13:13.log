@@ -1,0 +1,117 @@
+15:13:14.364 [INFO ] i.g.c.c.GatlingConfiguration$ - Gatling will try to use 'gatling.conf' as custom config file.
+15:13:15.834 [INFO ] a.e.s.Slf4jLogger - Slf4jLogger started
+15:13:18.970 [INFO ] i.g.h.e.HttpEngine - Start warm up
+15:13:20.082 [INFO ] i.g.h.e.HttpEngine - Couldn't execute warm up request https://gatling.io: i.g.h.c.i.RequestTimeoutException: Request timeout to gatling.io/34.77.87.202:443 after 1000 ms
+15:13:20.096 [INFO ] i.g.h.e.HttpEngine - Warm up done
+15:13:21.482 [INFO ] i.g.c.s.w.LogFileDataWriter - Initializing
+15:13:21.499 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initializing
+15:13:21.513 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initialized
+15:13:21.536 [INFO ] i.g.c.s.w.LogFileDataWriter - Initialized
+15:13:21.561 [INFO ] i.g.c.c.i.Injector - StoppedInjecting
+15:14:26.710 [INFO ] i.g.h.e.GatlingHttpListener - Request 'Pedido' failed for user 1
+io.gatling.http.client.impl.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+15:14:26.741 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 1: i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+15:14:26.846 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:90 after 60000 ms
+=========================
+Session:
+Session(Pedido,1,1582316001559,Map(ItemCode1 -> 0500000718, Address2 -> 59782C074 CA DUR SIBAMBE, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:90, CostingCode1 -> 100, U_RSG_RUTA2 -> 202, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@244a358e, Quantity5 -> 10, Comments -> ResgasaTest55556166, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> 202, Address3 -> 59782C074 CA DUR SIBAMBE, Address5 -> 59782C074 CA DUR SIBAMBE, CostingCode2 -> 100, ItemCode4 -> 0500000623, Address4 -> 59782C074 CA DUR SIBAMBE, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> 202, TaxDate -> 2020-02-12, Quantity1 -> 10, ItemCode3 -> 0500000622, 56ca1bb3-42a1-468f-a1d2-2e60f51e980b -> 0, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@643ad9c1,None), U_RSG_RUTA3 -> 202, CardCode -> 59782, tokenId -> Uq-KViQMdx6Qe9PSAZiqvBPbEemEFpMZJjOOwJrHZ45_CuYHoQHf-td1cNKqmSwTlAJIL0MRl1aMkiWsagjHYTCeXXF1bfQKJm2oG2SFJGWZcV6WenCkbLds-TyqYWxZpJZ9PLRTKRzOchy0lSCI7ioVjxidAvHVW1_Jnw5yIm-W1uRjrNg_YDqF3zVs_9jGDTzMMMkhop41HwpQ1wJOnhbTzSI9O4Jvulb_OTmxPpOm7VXVEeH8RmScbB8SX0_uOjPE2IBGD8ORpVSdZrIxRs451x5sV4dm7UNyT83zYxJI1oKzVzefwpaT80chCEsCmbgK6wHtyUu8o11nwhRFVA, U_RSG_RUTA5 -> 202, DocDueDate -> 2020-02-12, Quantity3 -> 2, Address1 -> 59782C074 CA DUR SIBAMBE, ItemCode5 -> 0500000639, DocDate -> 2020-02-12, ImportFileNum -> 1752, NumAtCard -> 6503, CostingCode5 -> 100, ItemCode2 -> 0500000599, Quantity2 -> 12),112,KO,List(ExitOnCompleteLoopBlock(56ca1bb3-42a1-468f-a1d2-2e60f51e980b)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$497/584501954@5c9a7006)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:90/odata/Pedido
+headers=
+Authorization: bearer Uq-KViQMdx6Qe9PSAZiqvBPbEemEFpMZJjOOwJrHZ45_CuYHoQHf-td1cNKqmSwTlAJIL0MRl1aMkiWsagjHYTCeXXF1bfQKJm2oG2SFJGWZcV6WenCkbLds-TyqYWxZpJZ9PLRTKRzOchy0lSCI7ioVjxidAvHVW1_Jnw5yIm-W1uRjrNg_YDqF3zVs_9jGDTzMMMkhop41HwpQ1wJOnhbTzSI9O4Jvulb_OTmxPpOm7VXVEeH8RmScbB8SX0_uOjPE2IBGD8ORpVSdZrIxRs451x5sV4dm7UNyT83zYxJI1oKzVzefwpaT80chCEsCmbgK6wHtyUu8o11nwhRFVA
+Accept: application/json
+host: ws.resgasa.com.ec:90
+content-type: application/json
+content-length: 1377
+byteArraysBody={
+    "CardCode": "59782",
+    "DocDate": "2020-02-12",
+    "DocDueDate": "2020-02-12",
+    "TaxDate": "2020-02-12",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResgasaTest55556166",
+    "NumAtCard": "6503",
+    "ImportFileNum": "1752",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000718",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "59782C074 CA DUR SIBAMBE"
+        },
+        {
+            "ItemCode": "0500000599",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "59782C074 CA DUR SIBAMBE"
+        },
+        {
+            "ItemCode": "0500000622",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "59782C074 CA DUR SIBAMBE"
+        },
+        {
+            "ItemCode": "0500000623",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "59782C074 CA DUR SIBAMBE"
+        },
+        {
+            "ItemCode": "0500000639",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "59782C074 CA DUR SIBAMBE"
+        }
+    ]
+}
+=========================
+HTTP response:
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:14:26.853 [ERROR] i.g.c.a.b.SessionHookBuilder$$anon$1 - 'hook-3' crashed on session Session(Pedido,1,1582316001559,Map(ItemCode1 -> 0500000718, Address2 -> 59782C074 CA DUR SIBAMBE, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:90, CostingCode1 -> 100, U_RSG_RUTA2 -> 202, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@244a358e, Quantity5 -> 10, Comments -> ResgasaTest55556166, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> 202, Address3 -> 59782C074 CA DUR SIBAMBE, Address5 -> 59782C074 CA DUR SIBAMBE, CostingCode2 -> 100, ItemCode4 -> 0500000623, Address4 -> 59782C074 CA DUR SIBAMBE, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> 202, TaxDate -> 2020-02-12, Quantity1 -> 10, ItemCode3 -> 0500000622, 56ca1bb3-42a1-468f-a1d2-2e60f51e980b -> 0, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@643ad9c1,None), U_RSG_RUTA3 -> 202, CardCode -> 59782, tokenId -> Uq-KViQMdx6Qe9PSAZiqvBPbEemEFpMZJjOOwJrHZ45_CuYHoQHf-td1cNKqmSwTlAJIL0MRl1aMkiWsagjHYTCeXXF1bfQKJm2oG2SFJGWZcV6WenCkbLds-TyqYWxZpJZ9PLRTKRzOchy0lSCI7ioVjxidAvHVW1_Jnw5yIm-W1uRjrNg_YDqF3zVs_9jGDTzMMMkhop41HwpQ1wJOnhbTzSI9O4Jvulb_OTmxPpOm7VXVEeH8RmScbB8SX0_uOjPE2IBGD8ORpVSdZrIxRs451x5sV4dm7UNyT83zYxJI1oKzVzefwpaT80chCEsCmbgK6wHtyUu8o11nwhRFVA, U_RSG_RUTA5 -> 202, DocDueDate -> 2020-02-12, Quantity3 -> 2, Address1 -> 59782C074 CA DUR SIBAMBE, ItemCode5 -> 0500000639, DocDate -> 2020-02-12, ImportFileNum -> 1752, NumAtCard -> 6503, CostingCode5 -> 100, ItemCode2 -> 0500000599, Quantity2 -> 12),680,KO,List(ExitOnCompleteLoopBlock(56ca1bb3-42a1-468f-a1d2-2e60f51e980b)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$497/584501954@5c9a7006), forwarding to the next one
+java.util.NoSuchElementException: No attribute named 'nuevo_pedido_test' is defined
+	at io.gatling.core.session.SessionAttribute.as(Session.scala:46)
+	at ResgasaTasks$.$anonfun$pedidoTask$1(ResgasaTasks.scala:85)
+	at io.gatling.core.action.SessionHook.execute(SessionHook.scala:32)
+	at io.gatling.core.action.Action.$bang(Action.scala:38)
+	at io.gatling.core.action.Action.$bang$(Action.scala:38)
+	at io.gatling.core.action.SessionHook.io$gatling$core$action$ChainableAction$$super$$bang(SessionHook.scala:23)
+	at io.gatling.core.action.ChainableAction.$bang(Action.scala:63)
+	at io.gatling.core.action.ChainableAction.$bang$(Action.scala:61)
+	at io.gatling.core.action.builder.SessionHookBuilder$$anon$1.io$gatling$core$action$ExitableAction$$super$$bang(SessionHookBuilder.scala:29)
+	at io.gatling.core.action.ExitableAction.$bang(BlockExit.scala:141)
+	at io.gatling.core.action.ExitableAction.$bang$(BlockExit.scala:139)
+	at io.gatling.core.action.builder.SessionHookBuilder$$anon$1.$bang(SessionHookBuilder.scala:29)
+	at io.gatling.http.engine.response.RootNextExecutor.executeNextOnCrash(NextExecutor.scala:50)
+	at io.gatling.http.engine.response.DefaultResponseProcessor.handleFailure(ResponseProcessor.scala:73)
+	at io.gatling.http.engine.response.DefaultResponseProcessor.onComplete(ResponseProcessor.scala:59)
+	at io.gatling.http.engine.GatlingHttpListener.onThrowable(GatlingHttpListener.scala:105)
+	at io.gatling.http.client.impl.RequestTimeout$DefaultRequestTimeout.execute(RequestTimeout.java:59)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:139)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:510)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:518)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1044)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+15:15:29.984 [INFO ] i.g.c.c.i.Injector - All users of scenario Pedido are stopped
+15:15:30.034 [INFO ] i.g.c.c.i.Injector - Stopping
+15:15:30.035 [INFO ] i.g.c.c.Controller - Injector has stopped, initiating graceful stop
+15:15:30.256 [INFO ] i.g.c.c.Controller - StatsEngineStopped
+15:15:30.669 [INFO ] i.g.c.s.LogFileReader - Collected ArrayBuffer(/home/manexware/QiriQ/resgasa/target/gatling/resgasasimulation-20200221201318358/simulation.log) from resgasasimulation-20200221201318358
+15:15:30.894 [INFO ] i.g.c.s.LogFileReader - First pass
+15:15:30.916 [INFO ] i.g.c.s.LogFileReader - First pass done: read 9 lines
+15:15:31.070 [INFO ] i.g.c.s.LogFileReader - Second pass
+15:15:31.252 [INFO ] i.g.c.s.LogFileReader - Second pass: read 9 lines

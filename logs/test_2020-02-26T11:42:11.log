@@ -1,0 +1,1237 @@
+11:42:11.637 [INFO ] i.g.c.c.GatlingConfiguration$ - Gatling will try to use 'gatling.conf' as custom config file.
+11:42:12.415 [INFO ] a.e.s.Slf4jLogger - Slf4jLogger started
+11:42:14.092 [INFO ] i.g.h.e.HttpEngine - Start warm up
+11:42:15.223 [INFO ] i.g.h.e.HttpEngine - Couldn't execute warm up request https://gatling.io: i.g.h.c.i.RequestTimeoutException: Request timeout after 1000 ms
+11:42:15.226 [INFO ] i.g.h.e.HttpEngine - Warm up done
+11:42:16.313 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initializing
+11:42:16.326 [INFO ] i.g.c.s.w.LogFileDataWriter - Initializing
+11:42:16.339 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initialized
+11:42:16.348 [INFO ] i.g.c.s.w.LogFileDataWriter - Initialized
+11:42:16.384 [INFO ] i.g.c.c.i.Injector - StoppedInjecting
+11:42:17.439 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 6: status.find.is(200), but actually found 500
+11:42:17.453 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO status.find.is(200), but actually found 500
+=========================
+Session:
+Session(Pedido,6,1582735336378,Map(ItemCode1 -> 0500000812, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 0, Address2 -> 61588B029 FARMACIAS ECONOMICAS, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> 85, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55557367, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> 85, Address3 -> 61588B029 FARMACIAS ECONOMICAS, Address5 -> 61588B029 FARMACIAS ECONOMICAS, CostingCode2 -> 100, ItemCode4 -> 0500000798, Address4 -> 61588B029 FARMACIAS ECONOMICAS, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> 85, nuevo_pedido_test -> {"error":{"code":"","message":"An error has occurred.","innererror":{"message":"Error guardando en el log","type":"System.Exception","stacktrace":"   at DistribucionYLiquidacion.Framework.Utililes.UtilFile.EscribirEnArchivoDesdeAddon(String mensaje)\r\n   at WebApi.Controllers.PedidoController.<PostAsync>d__4.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at WebApi.Controllers.PedidoController.<Post>d__3.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()"}}}, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000770, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@4ffba0c4,None), U_RSG_RUTA3 -> 85, CardCode -> 61588, tokenId -> UL4MgCWKJrSyByzPvZm2F3pxJnrUFCGdeA0qreRbPDN0U5odKNLXDgJF2qRQeOGX9KXUr6GONwFLJPVTJyZAIG1UuAc-sJhpJYDbi6kf-N3_d8vCGtunumb8G_zBUKyYO75f_pm10_Q0mPCL2CAHmP7M6arcKK3lb9t-pwqe3Mn3Mr95UD8VGq7MSrFd_m7OrZfdBuAAi2B5lrXJEuH2dpb9MGu2b2rr7Utd-rX8aFirBRdgp_EQauahOv2TGk-HDk3_udYhYusp75iLcFfYQDIwB2JP_DIh9_wWSNTGHbdAs5uUr9OSTczU1BUjJRrCQ4ZwYE__0H9GboF8Po3VLA, U_RSG_RUTA5 -> 85, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> 61588B029 FARMACIAS ECONOMICAS, ItemCode5 -> 0500000802, DocDate -> 2020-02-26, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000769, Quantity2 -> 12),153,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Pedido
+headers=
+Authorization: bearer UL4MgCWKJrSyByzPvZm2F3pxJnrUFCGdeA0qreRbPDN0U5odKNLXDgJF2qRQeOGX9KXUr6GONwFLJPVTJyZAIG1UuAc-sJhpJYDbi6kf-N3_d8vCGtunumb8G_zBUKyYO75f_pm10_Q0mPCL2CAHmP7M6arcKK3lb9t-pwqe3Mn3Mr95UD8VGq7MSrFd_m7OrZfdBuAAi2B5lrXJEuH2dpb9MGu2b2rr7Utd-rX8aFirBRdgp_EQauahOv2TGk-HDk3_udYhYusp75iLcFfYQDIwB2JP_DIh9_wWSNTGHbdAs5uUr9OSTczU1BUjJRrCQ4ZwYE__0H9GboF8Po3VLA
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 1401
+byteArraysBody={
+    "CardCode": "61588",
+    "DocDate": "2020-02-26",
+    "DocDueDate": "2020-02-26",
+    "TaxDate": "2020-02-26",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResTest26c55557367",
+    "NumAtCard": "6697",
+    "ImportFileNum": "1946",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000812",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "85",
+            "Address": "61588B029 FARMACIAS ECONOMICAS"
+        },
+        {
+            "ItemCode": "0500000769",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "85",
+            "Address": "61588B029 FARMACIAS ECONOMICAS"
+        },
+        {
+            "ItemCode": "0500000770",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "85",
+            "Address": "61588B029 FARMACIAS ECONOMICAS"
+        },
+        {
+            "ItemCode": "0500000798",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "85",
+            "Address": "61588B029 FARMACIAS ECONOMICAS"
+        },
+        {
+            "ItemCode": "0500000802",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "85",
+            "Address": "61588B029 FARMACIAS ECONOMICAS"
+        }
+    ]
+}
+=========================
+HTTP response:
+status=
+500 Internal Server Error
+headers= 
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; odata.metadata=minimal
+Expires: -1
+Server: Microsoft-IIS/8.5
+OData-Version: 4.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 26 Feb 2020 16:42:17 GMT
+Content-Length: 2740
+
+body=
+{"error":{"code":"","message":"An error has occurred.","innererror":{"message":"Error guardando en el log","type":"System.Exception","stacktrace":"   at DistribucionYLiquidacion.Framework.Utililes.UtilFile.EscribirEnArchivoDesdeAddon(String mensaje)\r\n   at WebApi.Controllers.PedidoController.<PostAsync>d__4.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at WebApi.Controllers.PedidoController.<Post>d__3.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()"}}}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:43:16.987 [INFO ] i.g.h.e.GatlingHttpListener - Request 'Pedido' failed for user 5
+io.gatling.http.client.impl.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:43:16.989 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 5: i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:43:16.992 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+=========================
+Session:
+Session(Pedido,5,1582735336377,Map(ItemCode1 -> 0500000728, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 0, Address2 -> 4671 ROCHA GALECIO KARINA ISABEL, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> B1, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55559182, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> B1, Address3 -> 4671 ROCHA GALECIO KARINA ISABEL, Address5 -> 4671 ROCHA GALECIO KARINA ISABEL, CostingCode2 -> 100, ItemCode4 -> 0500000254, Address4 -> 4671 ROCHA GALECIO KARINA ISABEL, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> B1, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000155, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@55ae9493,None), U_RSG_RUTA3 -> B1, CardCode -> B13379, tokenId -> QlohiUhvxB3mVKyPgYR-a6Rf3IBQTaaqV7gnx2ybSG-P7G4cTYjWiz8pCGb6yVx1ysr0XQYmEMlItKNBPIdkMiqHr0W-cM0pHVraIFQgCPFAjsNuE31HAhb-dmHuBeczcjj3lQRTd1VYlfq4THs355UL03QvZFLyqWrbZHU1HKZMW7j18njtswTe2y0f3PGycI8dDyS8cyHa08ka2Av_FHjcH_RB9fXsHezRzdS9-mNRfKHeeUVECAKfDP534lN04Nt571Dsp_UsCfrnjo7klHgwGGcreiBoYeHD3mRW4QRVSPGrmiModrMl1RwCBqEepBDaYoteaAjOogLq4b6mgw, U_RSG_RUTA5 -> B1, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> 4671 ROCHA GALECIO KARINA ISABEL, ItemCode5 -> 0500000579, DocDate -> 2020-02-26, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000151, Quantity2 -> 12),149,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Pedido
+headers=
+Authorization: bearer QlohiUhvxB3mVKyPgYR-a6Rf3IBQTaaqV7gnx2ybSG-P7G4cTYjWiz8pCGb6yVx1ysr0XQYmEMlItKNBPIdkMiqHr0W-cM0pHVraIFQgCPFAjsNuE31HAhb-dmHuBeczcjj3lQRTd1VYlfq4THs355UL03QvZFLyqWrbZHU1HKZMW7j18njtswTe2y0f3PGycI8dDyS8cyHa08ka2Av_FHjcH_RB9fXsHezRzdS9-mNRfKHeeUVECAKfDP534lN04Nt571Dsp_UsCfrnjo7klHgwGGcreiBoYeHD3mRW4QRVSPGrmiModrMl1RwCBqEepBDaYoteaAjOogLq4b6mgw
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 1412
+byteArraysBody={
+    "CardCode": "B13379",
+    "DocDate": "2020-02-26",
+    "DocDueDate": "2020-02-26",
+    "TaxDate": "2020-02-26",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResTest26c55559182",
+    "NumAtCard": "6697",
+    "ImportFileNum": "1946",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000728",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "4671 ROCHA GALECIO KARINA ISABEL"
+        },
+        {
+            "ItemCode": "0500000151",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "4671 ROCHA GALECIO KARINA ISABEL"
+        },
+        {
+            "ItemCode": "0500000155",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "4671 ROCHA GALECIO KARINA ISABEL"
+        },
+        {
+            "ItemCode": "0500000254",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "4671 ROCHA GALECIO KARINA ISABEL"
+        },
+        {
+            "ItemCode": "0500000579",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "4671 ROCHA GALECIO KARINA ISABEL"
+        }
+    ]
+}
+=========================
+HTTP response:
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:43:16.995 [ERROR] i.g.c.a.b.SessionHookBuilder$$anon$1 - 'hook-3' crashed on session Session(Pedido,5,1582735336377,Map(ItemCode1 -> 0500000728, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 0, Address2 -> 4671 ROCHA GALECIO KARINA ISABEL, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> B1, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55559182, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> B1, Address3 -> 4671 ROCHA GALECIO KARINA ISABEL, Address5 -> 4671 ROCHA GALECIO KARINA ISABEL, CostingCode2 -> 100, ItemCode4 -> 0500000254, Address4 -> 4671 ROCHA GALECIO KARINA ISABEL, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> B1, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000155, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@55ae9493,None), U_RSG_RUTA3 -> B1, CardCode -> B13379, tokenId -> QlohiUhvxB3mVKyPgYR-a6Rf3IBQTaaqV7gnx2ybSG-P7G4cTYjWiz8pCGb6yVx1ysr0XQYmEMlItKNBPIdkMiqHr0W-cM0pHVraIFQgCPFAjsNuE31HAhb-dmHuBeczcjj3lQRTd1VYlfq4THs355UL03QvZFLyqWrbZHU1HKZMW7j18njtswTe2y0f3PGycI8dDyS8cyHa08ka2Av_FHjcH_RB9fXsHezRzdS9-mNRfKHeeUVECAKfDP534lN04Nt571Dsp_UsCfrnjo7klHgwGGcreiBoYeHD3mRW4QRVSPGrmiModrMl1RwCBqEepBDaYoteaAjOogLq4b6mgw, U_RSG_RUTA5 -> B1, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> 4671 ROCHA GALECIO KARINA ISABEL, ItemCode5 -> 0500000579, DocDate -> 2020-02-26, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000151, Quantity2 -> 12),158,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f), forwarding to the next one
+java.util.NoSuchElementException: No attribute named 'nuevo_pedido_test' is defined
+	at io.gatling.core.session.SessionAttribute.as(Session.scala:46)
+	at ResgasaTasks$.$anonfun$pedidoTask$1(ResgasaTasks.scala:85)
+	at io.gatling.core.action.SessionHook.execute(SessionHook.scala:32)
+	at io.gatling.core.action.Action.$bang(Action.scala:38)
+	at io.gatling.core.action.Action.$bang$(Action.scala:38)
+	at io.gatling.core.action.SessionHook.io$gatling$core$action$ChainableAction$$super$$bang(SessionHook.scala:23)
+	at io.gatling.core.action.ChainableAction.$bang(Action.scala:63)
+	at io.gatling.core.action.ChainableAction.$bang$(Action.scala:61)
+	at io.gatling.core.action.builder.SessionHookBuilder$$anon$1.io$gatling$core$action$ExitableAction$$super$$bang(SessionHookBuilder.scala:29)
+	at io.gatling.core.action.ExitableAction.$bang(BlockExit.scala:141)
+	at io.gatling.core.action.ExitableAction.$bang$(BlockExit.scala:139)
+	at io.gatling.core.action.builder.SessionHookBuilder$$anon$1.$bang(SessionHookBuilder.scala:29)
+	at io.gatling.http.engine.response.RootNextExecutor.executeNextOnCrash(NextExecutor.scala:50)
+	at io.gatling.http.engine.response.DefaultResponseProcessor.handleFailure(ResponseProcessor.scala:73)
+	at io.gatling.http.engine.response.DefaultResponseProcessor.onComplete(ResponseProcessor.scala:59)
+	at io.gatling.http.engine.GatlingHttpListener.onThrowable(GatlingHttpListener.scala:105)
+	at io.gatling.http.client.impl.RequestTimeout$DefaultRequestTimeout.execute(RequestTimeout.java:59)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:139)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:510)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:518)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1044)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+11:43:17.011 [INFO ] i.g.h.e.GatlingHttpListener - Request 'Pedido' failed for user 10
+io.gatling.http.client.impl.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:43:17.012 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 10: i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:43:17.013 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+=========================
+Session:
+Session(Pedido,10,1582735336384,Map(ItemCode1 -> 0500000741, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 0, Address2 -> B83293 DESPENSA S/N, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> B1, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55558969, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> B1, Address3 -> B83293 DESPENSA S/N, Address5 -> B83293 DESPENSA S/N, CostingCode2 -> 100, ItemCode4 -> 0500000595, Address4 -> B83293 DESPENSA S/N, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> B1, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000581, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@5ee760b2,None), U_RSG_RUTA3 -> B1, CardCode -> B83293, tokenId -> H6_39lhsPRUeWQoK_QiwdJep8eJWDeEj1hiVQLcv9j-DAi_ALZxhs_W_pfkhVmv_aRsYAxBUs0rQcz66UMbrtX5CTRjOzSkB0qsjmdWnFA0HO0YEjCr0pQiVOba-wR3Rq2ToG76PI2MvqArInBAuC-Z_i6KYMtMR_2oXmBLPOJ3HfmMhbC84Ab7OwHe-3L1r4y3iKUMiADWFUAdpqTUnvNIwIGjXCDm3n4qQvJUcfNEy9oBlZ8BlegbWxvFvTqO1rcLtJcIHKLSYj4GmUictiCAzWTMUWqt2eH2bo1rcRBE4KPd-wtsoBIFc9VYnAoT5ygcgq3zSz--MZ41AxFW1-A, U_RSG_RUTA5 -> B1, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> B83293 DESPENSA S/N, ItemCode5 -> 0500000599, DocDate -> 2020-02-26, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000579, Quantity2 -> 12),13,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Pedido
+headers=
+Authorization: bearer H6_39lhsPRUeWQoK_QiwdJep8eJWDeEj1hiVQLcv9j-DAi_ALZxhs_W_pfkhVmv_aRsYAxBUs0rQcz66UMbrtX5CTRjOzSkB0qsjmdWnFA0HO0YEjCr0pQiVOba-wR3Rq2ToG76PI2MvqArInBAuC-Z_i6KYMtMR_2oXmBLPOJ3HfmMhbC84Ab7OwHe-3L1r4y3iKUMiADWFUAdpqTUnvNIwIGjXCDm3n4qQvJUcfNEy9oBlZ8BlegbWxvFvTqO1rcLtJcIHKLSYj4GmUictiCAzWTMUWqt2eH2bo1rcRBE4KPd-wtsoBIFc9VYnAoT5ygcgq3zSz--MZ41AxFW1-A
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 1347
+byteArraysBody={
+    "CardCode": "B83293",
+    "DocDate": "2020-02-26",
+    "DocDueDate": "2020-02-26",
+    "TaxDate": "2020-02-26",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResTest26c55558969",
+    "NumAtCard": "6697",
+    "ImportFileNum": "1946",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000741",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B83293 DESPENSA S/N"
+        },
+        {
+            "ItemCode": "0500000579",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B83293 DESPENSA S/N"
+        },
+        {
+            "ItemCode": "0500000581",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B83293 DESPENSA S/N"
+        },
+        {
+            "ItemCode": "0500000595",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B83293 DESPENSA S/N"
+        },
+        {
+            "ItemCode": "0500000599",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B83293 DESPENSA S/N"
+        }
+    ]
+}
+=========================
+HTTP response:
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:43:17.015 [ERROR] i.g.c.a.b.SessionHookBuilder$$anon$1 - 'hook-3' crashed on session Session(Pedido,10,1582735336384,Map(ItemCode1 -> 0500000741, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 0, Address2 -> B83293 DESPENSA S/N, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> B1, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55558969, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> B1, Address3 -> B83293 DESPENSA S/N, Address5 -> B83293 DESPENSA S/N, CostingCode2 -> 100, ItemCode4 -> 0500000595, Address4 -> B83293 DESPENSA S/N, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> B1, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000581, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@5ee760b2,None), U_RSG_RUTA3 -> B1, CardCode -> B83293, tokenId -> H6_39lhsPRUeWQoK_QiwdJep8eJWDeEj1hiVQLcv9j-DAi_ALZxhs_W_pfkhVmv_aRsYAxBUs0rQcz66UMbrtX5CTRjOzSkB0qsjmdWnFA0HO0YEjCr0pQiVOba-wR3Rq2ToG76PI2MvqArInBAuC-Z_i6KYMtMR_2oXmBLPOJ3HfmMhbC84Ab7OwHe-3L1r4y3iKUMiADWFUAdpqTUnvNIwIGjXCDm3n4qQvJUcfNEy9oBlZ8BlegbWxvFvTqO1rcLtJcIHKLSYj4GmUictiCAzWTMUWqt2eH2bo1rcRBE4KPd-wtsoBIFc9VYnAoT5ygcgq3zSz--MZ41AxFW1-A, U_RSG_RUTA5 -> B1, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> B83293 DESPENSA S/N, ItemCode5 -> 0500000599, DocDate -> 2020-02-26, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000579, Quantity2 -> 12),15,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f), forwarding to the next one
+java.util.NoSuchElementException: No attribute named 'nuevo_pedido_test' is defined
+	at io.gatling.core.session.SessionAttribute.as(Session.scala:46)
+	at ResgasaTasks$.$anonfun$pedidoTask$1(ResgasaTasks.scala:85)
+	at io.gatling.core.action.SessionHook.execute(SessionHook.scala:32)
+	at io.gatling.core.action.Action.$bang(Action.scala:38)
+	at io.gatling.core.action.Action.$bang$(Action.scala:38)
+	at io.gatling.core.action.SessionHook.io$gatling$core$action$ChainableAction$$super$$bang(SessionHook.scala:23)
+	at io.gatling.core.action.ChainableAction.$bang(Action.scala:63)
+	at io.gatling.core.action.ChainableAction.$bang$(Action.scala:61)
+	at io.gatling.core.action.builder.SessionHookBuilder$$anon$1.io$gatling$core$action$ExitableAction$$super$$bang(SessionHookBuilder.scala:29)
+	at io.gatling.core.action.ExitableAction.$bang(BlockExit.scala:141)
+	at io.gatling.core.action.ExitableAction.$bang$(BlockExit.scala:139)
+	at io.gatling.core.action.builder.SessionHookBuilder$$anon$1.$bang(SessionHookBuilder.scala:29)
+	at io.gatling.http.engine.response.RootNextExecutor.executeNextOnCrash(NextExecutor.scala:50)
+	at io.gatling.http.engine.response.DefaultResponseProcessor.handleFailure(ResponseProcessor.scala:73)
+	at io.gatling.http.engine.response.DefaultResponseProcessor.onComplete(ResponseProcessor.scala:59)
+	at io.gatling.http.engine.GatlingHttpListener.onThrowable(GatlingHttpListener.scala:105)
+	at io.gatling.http.client.impl.RequestTimeout$DefaultRequestTimeout.execute(RequestTimeout.java:59)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:139)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:510)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:518)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1044)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+11:43:18.314 [INFO ] i.g.h.e.GatlingHttpListener - Request 'Pedido' failed for user 6
+io.gatling.http.client.impl.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:43:18.315 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 6: i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:43:18.317 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+=========================
+Session:
+Session(Pedido,6,1582735336378,Map(ItemCode1 -> 0500000718, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 1, Address2 -> F83B094 DOMICILIO, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> 83, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55557120, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> 83, Address3 -> F83B094 DOMICILIO, Address5 -> F83B094 DOMICILIO, CostingCode2 -> 100, ItemCode4 -> 0500000643, Address4 -> F83B094 DOMICILIO, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> 83, nuevo_pedido_test -> {"error":{"code":"","message":"An error has occurred.","innererror":{"message":"Error guardando en el log","type":"System.Exception","stacktrace":"   at DistribucionYLiquidacion.Framework.Utililes.UtilFile.EscribirEnArchivoDesdeAddon(String mensaje)\r\n   at WebApi.Controllers.PedidoController.<PostAsync>d__4.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at WebApi.Controllers.PedidoController.<Post>d__3.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()"}}}, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000642, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@4ffba0c4,None), U_RSG_RUTA3 -> 83, CardCode -> 59864, tokenId -> UL4MgCWKJrSyByzPvZm2F3pxJnrUFCGdeA0qreRbPDN0U5odKNLXDgJF2qRQeOGX9KXUr6GONwFLJPVTJyZAIG1UuAc-sJhpJYDbi6kf-N3_d8vCGtunumb8G_zBUKyYO75f_pm10_Q0mPCL2CAHmP7M6arcKK3lb9t-pwqe3Mn3Mr95UD8VGq7MSrFd_m7OrZfdBuAAi2B5lrXJEuH2dpb9MGu2b2rr7Utd-rX8aFirBRdgp_EQauahOv2TGk-HDk3_udYhYusp75iLcFfYQDIwB2JP_DIh9_wWSNTGHbdAs5uUr9OSTczU1BUjJRrCQ4ZwYE__0H9GboF8Po3VLA, U_RSG_RUTA5 -> 83, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> F83B094 DOMICILIO, ItemCode5 -> 0500000647, DocDate -> 2020-02-26, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000639, Quantity2 -> 12),28,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Pedido
+headers=
+Authorization: bearer UL4MgCWKJrSyByzPvZm2F3pxJnrUFCGdeA0qreRbPDN0U5odKNLXDgJF2qRQeOGX9KXUr6GONwFLJPVTJyZAIG1UuAc-sJhpJYDbi6kf-N3_d8vCGtunumb8G_zBUKyYO75f_pm10_Q0mPCL2CAHmP7M6arcKK3lb9t-pwqe3Mn3Mr95UD8VGq7MSrFd_m7OrZfdBuAAi2B5lrXJEuH2dpb9MGu2b2rr7Utd-rX8aFirBRdgp_EQauahOv2TGk-HDk3_udYhYusp75iLcFfYQDIwB2JP_DIh9_wWSNTGHbdAs5uUr9OSTczU1BUjJRrCQ4ZwYE__0H9GboF8Po3VLA
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 1336
+byteArraysBody={
+    "CardCode": "59864",
+    "DocDate": "2020-02-26",
+    "DocDueDate": "2020-02-26",
+    "TaxDate": "2020-02-26",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResTest26c55557120",
+    "NumAtCard": "6697",
+    "ImportFileNum": "1946",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000718",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "83",
+            "Address": "F83B094 DOMICILIO"
+        },
+        {
+            "ItemCode": "0500000639",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "83",
+            "Address": "F83B094 DOMICILIO"
+        },
+        {
+            "ItemCode": "0500000642",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "83",
+            "Address": "F83B094 DOMICILIO"
+        },
+        {
+            "ItemCode": "0500000643",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "83",
+            "Address": "F83B094 DOMICILIO"
+        },
+        {
+            "ItemCode": "0500000647",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "83",
+            "Address": "F83B094 DOMICILIO"
+        }
+    ]
+}
+=========================
+HTTP response:
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:43:27.022 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 8: status.find.is(200), but actually found 500
+11:43:27.022 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 1: status.find.is(200), but actually found 500
+11:43:27.025 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO status.find.is(200), but actually found 500
+=========================
+Session:
+Session(Pedido,8,1582735336386,Map(ItemCode1 -> 0500000718, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 1, Address2 -> 4671 OROZCO RAMOS NELLY AZUCENA, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> B1, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55559187, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> B1, Address3 -> 4671 OROZCO RAMOS NELLY AZUCENA, Address5 -> 4671 OROZCO RAMOS NELLY AZUCENA, CostingCode2 -> 100, ItemCode4 -> 0500000622, Address4 -> 4671 OROZCO RAMOS NELLY AZUCENA, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> B1, nuevo_pedido_test -> {"error":{"code":"","message":"An error has occurred.","innererror":{"message":"Internal error (-2038) occurred","type":"System.Exception","stacktrace":""}}}, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000599, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@572a5127,None), U_RSG_RUTA3 -> B1, CardCode -> B13477, tokenId -> YI3dYdxgVxuxZ3RELCvNWuPvZptcYz9D0Yqn9LfUs48zIXsMWMd4z-V4uv3GyGpnEsd2Hfwj1GBVvn79DHsywS7r3pUHZFmvgoYNB9bUC2I76eRKDElrbEON1Mmvx8mil6QAYeusw5IcLS4JfvPmpVX2zET5EPn78BMkWTEH6vGw9Jg-rXe0sUmYkuJbZY-s2LCmVy0Md_noKbibXfe_nSxU3xY-Qfvx-PjtLJ3RIEbO6wJQiybJccfV8TKBzBfIYlH9iLP5toYOFR9gFgwCTSHxsZWmSxD3bp9twmwF3RNthqr0L75tzcnLqPQPKivGqFNSLusJEEJOLDuDxEjayg, U_RSG_RUTA5 -> B1, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> 4671 OROZCO RAMOS NELLY AZUCENA, ItemCode5 -> 0500000623, DocDate -> 2020-02-26, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000595, Quantity2 -> 12),15,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Pedido
+headers=
+Authorization: bearer YI3dYdxgVxuxZ3RELCvNWuPvZptcYz9D0Yqn9LfUs48zIXsMWMd4z-V4uv3GyGpnEsd2Hfwj1GBVvn79DHsywS7r3pUHZFmvgoYNB9bUC2I76eRKDElrbEON1Mmvx8mil6QAYeusw5IcLS4JfvPmpVX2zET5EPn78BMkWTEH6vGw9Jg-rXe0sUmYkuJbZY-s2LCmVy0Md_noKbibXfe_nSxU3xY-Qfvx-PjtLJ3RIEbO6wJQiybJccfV8TKBzBfIYlH9iLP5toYOFR9gFgwCTSHxsZWmSxD3bp9twmwF3RNthqr0L75tzcnLqPQPKivGqFNSLusJEEJOLDuDxEjayg
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 1407
+byteArraysBody={
+    "CardCode": "B13477",
+    "DocDate": "2020-02-26",
+    "DocDueDate": "2020-02-26",
+    "TaxDate": "2020-02-26",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResTest26c55559187",
+    "NumAtCard": "6697",
+    "ImportFileNum": "1946",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000718",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "4671 OROZCO RAMOS NELLY AZUCENA"
+        },
+        {
+            "ItemCode": "0500000595",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "4671 OROZCO RAMOS NELLY AZUCENA"
+        },
+        {
+            "ItemCode": "0500000599",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "4671 OROZCO RAMOS NELLY AZUCENA"
+        },
+        {
+            "ItemCode": "0500000622",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "4671 OROZCO RAMOS NELLY AZUCENA"
+        },
+        {
+            "ItemCode": "0500000623",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "4671 OROZCO RAMOS NELLY AZUCENA"
+        }
+    ]
+}
+=========================
+HTTP response:
+status=
+500 Internal Server Error
+headers= 
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; odata.metadata=minimal
+Expires: -1
+Server: Microsoft-IIS/8.5
+OData-Version: 4.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 26 Feb 2020 16:43:27 GMT
+Content-Length: 157
+
+body=
+{"error":{"code":"","message":"An error has occurred.","innererror":{"message":"Internal error (-2038) occurred","type":"System.Exception","stacktrace":""}}}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:43:27.025 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO status.find.is(200), but actually found 500
+=========================
+Session:
+Session(Pedido,1,1582735336377,Map(ItemCode1 -> 0500000728, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 1, Address2 -> B1582 DESPENSA S/N, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> B1, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55558599, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> B1, Address3 -> B1582 DESPENSA S/N, Address5 -> B1582 DESPENSA S/N, CostingCode2 -> 100, ItemCode4 -> 0500000599, Address4 -> B1582 DESPENSA S/N, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> B1, nuevo_pedido_test -> {"error":{"code":"","message":"An error has occurred.","innererror":{"message":"Internal error (-2038) occurred","type":"System.Exception","stacktrace":""}}}, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000595, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@383423cc,None), U_RSG_RUTA3 -> B1, CardCode -> B1582, tokenId -> F2sPXVBDedfiPLtZFYrSQ5rBXWfUtahPq7jdZ0ER5stZQQ8Pt-FrkMOg8a97Vp0VDRsN1WYYHORvilvBLef7yCZYmgrvNb57SVSGKiuLAHPs_v7DzqqEUEiXnAj9CIc9xu8vXs33IOS0tbQgQ5rPBTM-jRuMR9rnpEpZ6dmBULdCGpgPlI2DWAQ82NZf315GJopPpd5W1WZxgGZmCEtZWwTcp1ARmYdYz5Ql2kMX9aeRJqffWujfMPVuQM9JXAuXT2xtnLXKlyUAIJLf6sjZxZe1z7eGZFtmGY49gt8WtL6XsTKlkRWmTRnGsewFIgdT3D_4Mq6mIINq2bmmbAOqEw, U_RSG_RUTA5 -> B1, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> B1582 DESPENSA S/N, ItemCode5 -> 0500000622, DocDate -> 2020-02-26, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000581, Quantity2 -> 12),22,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Pedido
+headers=
+Authorization: bearer F2sPXVBDedfiPLtZFYrSQ5rBXWfUtahPq7jdZ0ER5stZQQ8Pt-FrkMOg8a97Vp0VDRsN1WYYHORvilvBLef7yCZYmgrvNb57SVSGKiuLAHPs_v7DzqqEUEiXnAj9CIc9xu8vXs33IOS0tbQgQ5rPBTM-jRuMR9rnpEpZ6dmBULdCGpgPlI2DWAQ82NZf315GJopPpd5W1WZxgGZmCEtZWwTcp1ARmYdYz5Ql2kMX9aeRJqffWujfMPVuQM9JXAuXT2xtnLXKlyUAIJLf6sjZxZe1z7eGZFtmGY49gt8WtL6XsTKlkRWmTRnGsewFIgdT3D_4Mq6mIINq2bmmbAOqEw
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 1341
+byteArraysBody={
+    "CardCode": "B1582",
+    "DocDate": "2020-02-26",
+    "DocDueDate": "2020-02-26",
+    "TaxDate": "2020-02-26",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResTest26c55558599",
+    "NumAtCard": "6697",
+    "ImportFileNum": "1946",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000728",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B1582 DESPENSA S/N"
+        },
+        {
+            "ItemCode": "0500000581",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B1582 DESPENSA S/N"
+        },
+        {
+            "ItemCode": "0500000595",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B1582 DESPENSA S/N"
+        },
+        {
+            "ItemCode": "0500000599",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B1582 DESPENSA S/N"
+        },
+        {
+            "ItemCode": "0500000622",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B1582 DESPENSA S/N"
+        }
+    ]
+}
+=========================
+HTTP response:
+status=
+500 Internal Server Error
+headers= 
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; odata.metadata=minimal
+Expires: -1
+Server: Microsoft-IIS/8.5
+OData-Version: 4.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 26 Feb 2020 16:43:27 GMT
+Content-Length: 157
+
+body=
+{"error":{"code":"","message":"An error has occurred.","innererror":{"message":"Internal error (-2038) occurred","type":"System.Exception","stacktrace":""}}}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:46:05.963 [INFO ] i.g.h.e.GatlingHttpListener - Request 'Pedido' failed for user 10
+io.gatling.http.client.impl.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:05.964 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 10: i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:05.965 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+=========================
+Session:
+Session(Pedido,10,1582735336384,Map(ItemCode1 -> 0500000155, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 4, Address2 -> 102427 TIENDA S/N, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> 91, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55558099, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> 91, Address3 -> 102427 TIENDA S/N, Address5 -> 102427 TIENDA S/N, CostingCode2 -> 100, ItemCode4 -> 0500000741, Address4 -> 102427 TIENDA S/N, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> 91, nuevo_pedido_test -> {"DocEntry":"296332","DocNum":"29776","Ruta":"83"}, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000728, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@5ee760b2,None), U_RSG_RUTA3 -> 91, CardCode -> 102427, tokenId -> H6_39lhsPRUeWQoK_QiwdJep8eJWDeEj1hiVQLcv9j-DAi_ALZxhs_W_pfkhVmv_aRsYAxBUs0rQcz66UMbrtX5CTRjOzSkB0qsjmdWnFA0HO0YEjCr0pQiVOba-wR3Rq2ToG76PI2MvqArInBAuC-Z_i6KYMtMR_2oXmBLPOJ3HfmMhbC84Ab7OwHe-3L1r4y3iKUMiADWFUAdpqTUnvNIwIGjXCDm3n4qQvJUcfNEy9oBlZ8BlegbWxvFvTqO1rcLtJcIHKLSYj4GmUictiCAzWTMUWqt2eH2bo1rcRBE4KPd-wtsoBIFc9VYnAoT5ygcgq3zSz--MZ41AxFW1-A, U_RSG_RUTA5 -> 91, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> 102427 TIENDA S/N, ItemCode5 -> 0500000742, DocDate -> 2020-02-26, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000727, Quantity2 -> 12),24,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Pedido
+headers=
+Authorization: bearer H6_39lhsPRUeWQoK_QiwdJep8eJWDeEj1hiVQLcv9j-DAi_ALZxhs_W_pfkhVmv_aRsYAxBUs0rQcz66UMbrtX5CTRjOzSkB0qsjmdWnFA0HO0YEjCr0pQiVOba-wR3Rq2ToG76PI2MvqArInBAuC-Z_i6KYMtMR_2oXmBLPOJ3HfmMhbC84Ab7OwHe-3L1r4y3iKUMiADWFUAdpqTUnvNIwIGjXCDm3n4qQvJUcfNEy9oBlZ8BlegbWxvFvTqO1rcLtJcIHKLSYj4GmUictiCAzWTMUWqt2eH2bo1rcRBE4KPd-wtsoBIFc9VYnAoT5ygcgq3zSz--MZ41AxFW1-A
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 1337
+byteArraysBody={
+    "CardCode": "102427",
+    "DocDate": "2020-02-26",
+    "DocDueDate": "2020-02-26",
+    "TaxDate": "2020-02-26",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResTest26c55558099",
+    "NumAtCard": "6697",
+    "ImportFileNum": "1946",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000155",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "91",
+            "Address": "102427 TIENDA S/N"
+        },
+        {
+            "ItemCode": "0500000727",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "91",
+            "Address": "102427 TIENDA S/N"
+        },
+        {
+            "ItemCode": "0500000728",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "91",
+            "Address": "102427 TIENDA S/N"
+        },
+        {
+            "ItemCode": "0500000741",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "91",
+            "Address": "102427 TIENDA S/N"
+        },
+        {
+            "ItemCode": "0500000742",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "91",
+            "Address": "102427 TIENDA S/N"
+        }
+    ]
+}
+=========================
+HTTP response:
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:46:07.992 [INFO ] i.g.h.e.GatlingHttpListener - Request 'Pedido' failed for user 7
+io.gatling.http.client.impl.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:07.993 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 7: i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:07.994 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+=========================
+Session:
+Session(Pedido,7,1582735336384,Map(ItemCode1 -> 0500000770, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 5, Address2 -> 124259 SHD SEÑOR HOT DOG, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> 202, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55556151, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> 202, Address3 -> 124259 SHD SEÑOR HOT DOG, Address5 -> 124259 SHD SEÑOR HOT DOG, CostingCode2 -> 100, ItemCode4 -> 0500000109, Address4 -> 124259 SHD SEÑOR HOT DOG, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> 202, nuevo_pedido_test -> {"DocEntry":"296333","DocNum":"29777","Ruta":"B1"}, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000104, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@24bc451c,None), U_RSG_RUTA3 -> 202, CardCode -> 124259, tokenId -> kNzIfIM1XEzT2EmUDBGWnpax8AohVo5ahcEiumgU7QEqkb-3523OLryX-_CiEDWBiLdNXXSuHK9zfruDTF7txBca6hB86f7TB7ghs_CFpjEjPccEt8uRFM9xYluzAvE2On2H6TMqazY_E2B37zH2YYIvmxAZnEng0GGJ4YfcaxBUU7rdwUpD2siAd-f2Fg0HxZhYoce2NzjAssh0NS9BnFOhgVHgFSyL39tNJgj7J6bkFNcc4EVAhA3nl5TorT4q37aDBxEQJagaq7pNnAf4YNmyb1XmMjbQtn0Tn0t-V9t-Uv_Y3mp1VBA_pfyheA5L3QRRuDly-LquXeFV7eV59w, U_RSG_RUTA5 -> 202, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> 124259 SHD SEÑOR HOT DOG, ItemCode5 -> 0500000111, DocDate -> 2020-02-26, ImportFileNum -> 1737, NumAtCard -> 6488, CostingCode5 -> 100, ItemCode2 -> 0500000812, Quantity2 -> 12),24,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Pedido
+headers=
+Authorization: bearer kNzIfIM1XEzT2EmUDBGWnpax8AohVo5ahcEiumgU7QEqkb-3523OLryX-_CiEDWBiLdNXXSuHK9zfruDTF7txBca6hB86f7TB7ghs_CFpjEjPccEt8uRFM9xYluzAvE2On2H6TMqazY_E2B37zH2YYIvmxAZnEng0GGJ4YfcaxBUU7rdwUpD2siAd-f2Fg0HxZhYoce2NzjAssh0NS9BnFOhgVHgFSyL39tNJgj7J6bkFNcc4EVAhA3nl5TorT4q37aDBxEQJagaq7pNnAf4YNmyb1XmMjbQtn0Tn0t-V9t-Uv_Y3mp1VBA_pfyheA5L3QRRuDly-LquXeFV7eV59w
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 1382
+byteArraysBody={
+    "CardCode": "124259",
+    "DocDate": "2020-02-26",
+    "DocDueDate": "2020-02-26",
+    "TaxDate": "2020-02-26",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResTest26c55556151",
+    "NumAtCard": "6488",
+    "ImportFileNum": "1737",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000770",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "124259 SHD SEÑOR HOT DOG"
+        },
+        {
+            "ItemCode": "0500000812",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "124259 SHD SEÑOR HOT DOG"
+        },
+        {
+            "ItemCode": "0500000104",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "124259 SHD SEÑOR HOT DOG"
+        },
+        {
+            "ItemCode": "0500000109",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "124259 SHD SEÑOR HOT DOG"
+        },
+        {
+            "ItemCode": "0500000111",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "124259 SHD SEÑOR HOT DOG"
+        }
+    ]
+}
+=========================
+HTTP response:
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:46:09.923 [INFO ] i.g.h.e.GatlingHttpListener - Request 'Pedido' failed for user 9
+io.gatling.http.client.impl.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:09.924 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 9: i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:09.925 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+=========================
+Session:
+Session(Pedido,9,1582735336383,Map(ItemCode1 -> 0500000128, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 5, Address2 -> B1253 PICANTERIA CRISTO ES AMOR, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> B1, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55558474, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> B1, Address3 -> B1253 PICANTERIA CRISTO ES AMOR, Address5 -> B1253 PICANTERIA CRISTO ES AMOR, CostingCode2 -> 100, ItemCode4 -> 0500000758, Address4 -> B1253 PICANTERIA CRISTO ES AMOR, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> B1, nuevo_pedido_test -> {"DocEntry":"296334","DocNum":"29778","Ruta":"B1"}, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000757, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@50fc4542,None), U_RSG_RUTA3 -> B1, CardCode -> B1253, tokenId -> k9QzQw3gaR-FBri1fqnTvCVxqEjV7Bgnl32UYDRFhTWSaQ9vEpeBntBx9HWCmtQ0N9An6WyIRr-ZESep0KMfsSV0tWZNAi2EKw0wMTzTXensqjPc4XwEY17dVLis8AZyKtVt18AnltWHmTRxjEl-TyXt9JjTkac2l1q-wudyvD9ZtleOgnyMmzXhvzwPVqmChHfMssO8Ql0DRS3rvI4Eq5LTf7Frs9-NSkhPmcgHpMvxotvSx60mqafsAWVuCFW2HBujyxk19P7TJkJ2cgeazQJHvH_LTeY8_NOFpxbyXQpZtJRgXIj5LpRSPMQ9qV768VviuXWgc0lNmk4NyW7eSg, U_RSG_RUTA5 -> B1, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> B1253 PICANTERIA CRISTO ES AMOR, ItemCode5 -> 0500000762, DocDate -> 2020-02-26, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000744, Quantity2 -> 12),22,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Pedido
+headers=
+Authorization: bearer k9QzQw3gaR-FBri1fqnTvCVxqEjV7Bgnl32UYDRFhTWSaQ9vEpeBntBx9HWCmtQ0N9An6WyIRr-ZESep0KMfsSV0tWZNAi2EKw0wMTzTXensqjPc4XwEY17dVLis8AZyKtVt18AnltWHmTRxjEl-TyXt9JjTkac2l1q-wudyvD9ZtleOgnyMmzXhvzwPVqmChHfMssO8Ql0DRS3rvI4Eq5LTf7Frs9-NSkhPmcgHpMvxotvSx60mqafsAWVuCFW2HBujyxk19P7TJkJ2cgeazQJHvH_LTeY8_NOFpxbyXQpZtJRgXIj5LpRSPMQ9qV768VviuXWgc0lNmk4NyW7eSg
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 1406
+byteArraysBody={
+    "CardCode": "B1253",
+    "DocDate": "2020-02-26",
+    "DocDueDate": "2020-02-26",
+    "TaxDate": "2020-02-26",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResTest26c55558474",
+    "NumAtCard": "6697",
+    "ImportFileNum": "1946",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000128",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B1253 PICANTERIA CRISTO ES AMOR"
+        },
+        {
+            "ItemCode": "0500000744",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B1253 PICANTERIA CRISTO ES AMOR"
+        },
+        {
+            "ItemCode": "0500000757",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B1253 PICANTERIA CRISTO ES AMOR"
+        },
+        {
+            "ItemCode": "0500000758",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B1253 PICANTERIA CRISTO ES AMOR"
+        },
+        {
+            "ItemCode": "0500000762",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B1253 PICANTERIA CRISTO ES AMOR"
+        }
+    ]
+}
+=========================
+HTTP response:
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:46:11.873 [INFO ] i.g.h.e.GatlingHttpListener - Request 'Pedido' failed for user 6
+io.gatling.http.client.impl.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:11.874 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 6: i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:11.875 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+=========================
+Session:
+Session(Pedido,6,1582735336378,Map(ItemCode1 -> 0500000599, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 6, Address2 -> 39139C000 LA CARNICERIA MARKET, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> 202, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55556292, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> 202, Address3 -> 39139C000 LA CARNICERIA MARKET, Address5 -> 39139C000 LA CARNICERIA MARKET, CostingCode2 -> 100, ItemCode4 -> 0500000718, Address4 -> 39139C000 LA CARNICERIA MARKET, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> 202, nuevo_pedido_test -> {"DocEntry":"296335","DocNum":"29779","Ruta":"202"}, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000702, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@4ffba0c4,None), U_RSG_RUTA3 -> 202, CardCode -> 39139, tokenId -> UL4MgCWKJrSyByzPvZm2F3pxJnrUFCGdeA0qreRbPDN0U5odKNLXDgJF2qRQeOGX9KXUr6GONwFLJPVTJyZAIG1UuAc-sJhpJYDbi6kf-N3_d8vCGtunumb8G_zBUKyYO75f_pm10_Q0mPCL2CAHmP7M6arcKK3lb9t-pwqe3Mn3Mr95UD8VGq7MSrFd_m7OrZfdBuAAi2B5lrXJEuH2dpb9MGu2b2rr7Utd-rX8aFirBRdgp_EQauahOv2TGk-HDk3_udYhYusp75iLcFfYQDIwB2JP_DIh9_wWSNTGHbdAs5uUr9OSTczU1BUjJRrCQ4ZwYE__0H9GboF8Po3VLA, U_RSG_RUTA5 -> 202, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> 39139C000 LA CARNICERIA MARKET, ItemCode5 -> 0500000719, DocDate -> 2020-02-26, ImportFileNum -> 1878, NumAtCard -> 6629, CostingCode5 -> 100, ItemCode2 -> 0500000701, Quantity2 -> 12),22,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Pedido
+headers=
+Authorization: bearer UL4MgCWKJrSyByzPvZm2F3pxJnrUFCGdeA0qreRbPDN0U5odKNLXDgJF2qRQeOGX9KXUr6GONwFLJPVTJyZAIG1UuAc-sJhpJYDbi6kf-N3_d8vCGtunumb8G_zBUKyYO75f_pm10_Q0mPCL2CAHmP7M6arcKK3lb9t-pwqe3Mn3Mr95UD8VGq7MSrFd_m7OrZfdBuAAi2B5lrXJEuH2dpb9MGu2b2rr7Utd-rX8aFirBRdgp_EQauahOv2TGk-HDk3_udYhYusp75iLcFfYQDIwB2JP_DIh9_wWSNTGHbdAs5uUr9OSTczU1BUjJRrCQ4ZwYE__0H9GboF8Po3VLA
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 1406
+byteArraysBody={
+    "CardCode": "39139",
+    "DocDate": "2020-02-26",
+    "DocDueDate": "2020-02-26",
+    "TaxDate": "2020-02-26",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResTest26c55556292",
+    "NumAtCard": "6629",
+    "ImportFileNum": "1878",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000599",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "39139C000 LA CARNICERIA MARKET"
+        },
+        {
+            "ItemCode": "0500000701",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "39139C000 LA CARNICERIA MARKET"
+        },
+        {
+            "ItemCode": "0500000702",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "39139C000 LA CARNICERIA MARKET"
+        },
+        {
+            "ItemCode": "0500000718",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "39139C000 LA CARNICERIA MARKET"
+        },
+        {
+            "ItemCode": "0500000719",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "39139C000 LA CARNICERIA MARKET"
+        }
+    ]
+}
+=========================
+HTTP response:
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:46:13.372 [INFO ] i.g.h.e.GatlingHttpListener - Request 'Pedido' failed for user 1
+io.gatling.http.client.impl.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:13.373 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 1: i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:13.374 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+=========================
+Session:
+Session(Pedido,1,1582735336377,Map(ItemCode1 -> 0500000758, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 5, Address2 -> B74847 DESPENSA S/N, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> B1, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55558912, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> B1, Address3 -> B74847 DESPENSA S/N, Address5 -> B74847 DESPENSA S/N, CostingCode2 -> 100, ItemCode4 -> 0500000118, Address4 -> B74847 DESPENSA S/N, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> B1, nuevo_pedido_test -> {"DocEntry":"296336","DocNum":"29780","Ruta":"B1"}, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000111, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@383423cc,None), U_RSG_RUTA3 -> B1, CardCode -> B74847, tokenId -> F2sPXVBDedfiPLtZFYrSQ5rBXWfUtahPq7jdZ0ER5stZQQ8Pt-FrkMOg8a97Vp0VDRsN1WYYHORvilvBLef7yCZYmgrvNb57SVSGKiuLAHPs_v7DzqqEUEiXnAj9CIc9xu8vXs33IOS0tbQgQ5rPBTM-jRuMR9rnpEpZ6dmBULdCGpgPlI2DWAQ82NZf315GJopPpd5W1WZxgGZmCEtZWwTcp1ARmYdYz5Ql2kMX9aeRJqffWujfMPVuQM9JXAuXT2xtnLXKlyUAIJLf6sjZxZe1z7eGZFtmGY49gt8WtL6XsTKlkRWmTRnGsewFIgdT3D_4Mq6mIINq2bmmbAOqEw, U_RSG_RUTA5 -> B1, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> B74847 DESPENSA S/N, ItemCode5 -> 0500000119, DocDate -> 2020-02-26, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000109, Quantity2 -> 12),23,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Pedido
+headers=
+Authorization: bearer F2sPXVBDedfiPLtZFYrSQ5rBXWfUtahPq7jdZ0ER5stZQQ8Pt-FrkMOg8a97Vp0VDRsN1WYYHORvilvBLef7yCZYmgrvNb57SVSGKiuLAHPs_v7DzqqEUEiXnAj9CIc9xu8vXs33IOS0tbQgQ5rPBTM-jRuMR9rnpEpZ6dmBULdCGpgPlI2DWAQ82NZf315GJopPpd5W1WZxgGZmCEtZWwTcp1ARmYdYz5Ql2kMX9aeRJqffWujfMPVuQM9JXAuXT2xtnLXKlyUAIJLf6sjZxZe1z7eGZFtmGY49gt8WtL6XsTKlkRWmTRnGsewFIgdT3D_4Mq6mIINq2bmmbAOqEw
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 1347
+byteArraysBody={
+    "CardCode": "B74847",
+    "DocDate": "2020-02-26",
+    "DocDueDate": "2020-02-26",
+    "TaxDate": "2020-02-26",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResTest26c55558912",
+    "NumAtCard": "6697",
+    "ImportFileNum": "1946",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000758",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B74847 DESPENSA S/N"
+        },
+        {
+            "ItemCode": "0500000109",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B74847 DESPENSA S/N"
+        },
+        {
+            "ItemCode": "0500000111",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B74847 DESPENSA S/N"
+        },
+        {
+            "ItemCode": "0500000118",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B74847 DESPENSA S/N"
+        },
+        {
+            "ItemCode": "0500000119",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "B1",
+            "Address": "B74847 DESPENSA S/N"
+        }
+    ]
+}
+=========================
+HTTP response:
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:46:15.373 [INFO ] i.g.h.e.GatlingHttpListener - Request 'Pedido' failed for user 5
+io.gatling.http.client.impl.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:15.374 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 5: i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:15.376 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+=========================
+Session:
+Session(Pedido,5,1582735336377,Map(ItemCode1 -> 0500000697, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 6, Address2 -> 121305 HOGAR, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> 91, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55558078, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> 91, Address3 -> 121305 HOGAR, Address5 -> 121305 HOGAR, CostingCode2 -> 100, ItemCode4 -> 0500000643, Address4 -> 121305 HOGAR, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> 91, nuevo_pedido_test -> {"DocEntry":"296337","DocNum":"29781","Ruta":"88"}, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000642, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@55ae9493,None), U_RSG_RUTA3 -> 91, CardCode -> 121305, tokenId -> QlohiUhvxB3mVKyPgYR-a6Rf3IBQTaaqV7gnx2ybSG-P7G4cTYjWiz8pCGb6yVx1ysr0XQYmEMlItKNBPIdkMiqHr0W-cM0pHVraIFQgCPFAjsNuE31HAhb-dmHuBeczcjj3lQRTd1VYlfq4THs355UL03QvZFLyqWrbZHU1HKZMW7j18njtswTe2y0f3PGycI8dDyS8cyHa08ka2Av_FHjcH_RB9fXsHezRzdS9-mNRfKHeeUVECAKfDP534lN04Nt571Dsp_UsCfrnjo7klHgwGGcreiBoYeHD3mRW4QRVSPGrmiModrMl1RwCBqEepBDaYoteaAjOogLq4b6mgw, U_RSG_RUTA5 -> 91, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> 121305 HOGAR, ItemCode5 -> 0500000647, DocDate -> 2020-02-26, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000639, Quantity2 -> 12),25,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Pedido
+headers=
+Authorization: bearer QlohiUhvxB3mVKyPgYR-a6Rf3IBQTaaqV7gnx2ybSG-P7G4cTYjWiz8pCGb6yVx1ysr0XQYmEMlItKNBPIdkMiqHr0W-cM0pHVraIFQgCPFAjsNuE31HAhb-dmHuBeczcjj3lQRTd1VYlfq4THs355UL03QvZFLyqWrbZHU1HKZMW7j18njtswTe2y0f3PGycI8dDyS8cyHa08ka2Av_FHjcH_RB9fXsHezRzdS9-mNRfKHeeUVECAKfDP534lN04Nt571Dsp_UsCfrnjo7klHgwGGcreiBoYeHD3mRW4QRVSPGrmiModrMl1RwCBqEepBDaYoteaAjOogLq4b6mgw
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 1312
+byteArraysBody={
+    "CardCode": "121305",
+    "DocDate": "2020-02-26",
+    "DocDueDate": "2020-02-26",
+    "TaxDate": "2020-02-26",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResTest26c55558078",
+    "NumAtCard": "6697",
+    "ImportFileNum": "1946",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000697",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "91",
+            "Address": "121305 HOGAR"
+        },
+        {
+            "ItemCode": "0500000639",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "91",
+            "Address": "121305 HOGAR"
+        },
+        {
+            "ItemCode": "0500000642",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "91",
+            "Address": "121305 HOGAR"
+        },
+        {
+            "ItemCode": "0500000643",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "91",
+            "Address": "121305 HOGAR"
+        },
+        {
+            "ItemCode": "0500000647",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "91",
+            "Address": "121305 HOGAR"
+        }
+    ]
+}
+=========================
+HTTP response:
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:46:17.204 [INFO ] i.g.h.e.GatlingHttpListener - Request 'Pedido' failed for user 8
+io.gatling.http.client.impl.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:17.205 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 8: i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:17.206 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+=========================
+Session:
+Session(Pedido,8,1582735336386,Map(ItemCode1 -> 0500000595, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 6, Address2 -> 43013C0033 SWEET AND COFFEE, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> 202, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55556293, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> 202, Address3 -> 43013C0033 SWEET AND COFFEE, Address5 -> 43013C0033 SWEET AND COFFEE, CostingCode2 -> 100, ItemCode4 -> 0500000719, Address4 -> 43013C0033 SWEET AND COFFEE, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> 202, nuevo_pedido_test -> {"DocEntry":"296338","DocNum":"29782","Ruta":"202"}, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000718, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@572a5127,None), U_RSG_RUTA3 -> 202, CardCode -> 43013, tokenId -> YI3dYdxgVxuxZ3RELCvNWuPvZptcYz9D0Yqn9LfUs48zIXsMWMd4z-V4uv3GyGpnEsd2Hfwj1GBVvn79DHsywS7r3pUHZFmvgoYNB9bUC2I76eRKDElrbEON1Mmvx8mil6QAYeusw5IcLS4JfvPmpVX2zET5EPn78BMkWTEH6vGw9Jg-rXe0sUmYkuJbZY-s2LCmVy0Md_noKbibXfe_nSxU3xY-Qfvx-PjtLJ3RIEbO6wJQiybJccfV8TKBzBfIYlH9iLP5toYOFR9gFgwCTSHxsZWmSxD3bp9twmwF3RNthqr0L75tzcnLqPQPKivGqFNSLusJEEJOLDuDxEjayg, U_RSG_RUTA5 -> 202, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> 43013C0033 SWEET AND COFFEE, ItemCode5 -> 0500000725, DocDate -> 2020-02-26, ImportFileNum -> 1879, NumAtCard -> 6630, CostingCode5 -> 100, ItemCode2 -> 0500000702, Quantity2 -> 12),20,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Pedido
+headers=
+Authorization: bearer YI3dYdxgVxuxZ3RELCvNWuPvZptcYz9D0Yqn9LfUs48zIXsMWMd4z-V4uv3GyGpnEsd2Hfwj1GBVvn79DHsywS7r3pUHZFmvgoYNB9bUC2I76eRKDElrbEON1Mmvx8mil6QAYeusw5IcLS4JfvPmpVX2zET5EPn78BMkWTEH6vGw9Jg-rXe0sUmYkuJbZY-s2LCmVy0Md_noKbibXfe_nSxU3xY-Qfvx-PjtLJ3RIEbO6wJQiybJccfV8TKBzBfIYlH9iLP5toYOFR9gFgwCTSHxsZWmSxD3bp9twmwF3RNthqr0L75tzcnLqPQPKivGqFNSLusJEEJOLDuDxEjayg
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 1391
+byteArraysBody={
+    "CardCode": "43013",
+    "DocDate": "2020-02-26",
+    "DocDueDate": "2020-02-26",
+    "TaxDate": "2020-02-26",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResTest26c55556293",
+    "NumAtCard": "6630",
+    "ImportFileNum": "1879",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000595",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "43013C0033 SWEET AND COFFEE"
+        },
+        {
+            "ItemCode": "0500000702",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "43013C0033 SWEET AND COFFEE"
+        },
+        {
+            "ItemCode": "0500000718",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "43013C0033 SWEET AND COFFEE"
+        },
+        {
+            "ItemCode": "0500000719",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "43013C0033 SWEET AND COFFEE"
+        },
+        {
+            "ItemCode": "0500000725",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "43013C0033 SWEET AND COFFEE"
+        }
+    ]
+}
+=========================
+HTTP response:
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:46:19.002 [INFO ] i.g.h.e.GatlingHttpListener - Request 'Pedido' failed for user 3
+io.gatling.http.client.impl.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:19.002 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 3: i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:19.003 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+=========================
+Session:
+Session(Pedido,3,1582735336377,Map(ItemCode1 -> 0500000693, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 8, Address2 -> 118021 TIENDA S/N, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> 82, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55556701, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> 82, Address3 -> 118021 TIENDA S/N, Address5 -> 118021 TIENDA S/N, CostingCode2 -> 100, ItemCode4 -> 0500000642, Address4 -> 118021 TIENDA S/N, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> 82, nuevo_pedido_test -> {"DocEntry":"296339","DocNum":"29783","Ruta":"89"}, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000639, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@10a2791a,None), U_RSG_RUTA3 -> 82, CardCode -> 118021, tokenId -> 0tCtpOVR6LgvJKkL5yPsFUovI7f7kQzxWd960i4GeMj_E0-XVIbauFm9W6CIw_-UANPWgqTJ4aiY1lDdvlb929Mt8t6ZoU43s7mNN2n-XCERu1E0aq6bDuggQzxY68M2o3DpEOfoT7tq5S0nl_STW_HLq0IaCuKKciN4D2K69R2JvxQkfrkC3N20KKy9p19qnkamTwtU7TAuLFSvmBKIYiRO2sv9xPUMjE_xOEwUprKpf5iEFJBxlmTshStW4aIDwmlazFrpExhIhop94IeGEokleUhTOdpRFsSLiOKbhV9Bpa_tfq5FJ3cxBZ81GFyAzWXJAlQ5Ou8jONhPegjPoQ, U_RSG_RUTA5 -> 82, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> 118021 TIENDA S/N, ItemCode5 -> 0500000643, DocDate -> 2020-02-26, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000623, Quantity2 -> 12),25,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Pedido
+headers=
+Authorization: bearer 0tCtpOVR6LgvJKkL5yPsFUovI7f7kQzxWd960i4GeMj_E0-XVIbauFm9W6CIw_-UANPWgqTJ4aiY1lDdvlb929Mt8t6ZoU43s7mNN2n-XCERu1E0aq6bDuggQzxY68M2o3DpEOfoT7tq5S0nl_STW_HLq0IaCuKKciN4D2K69R2JvxQkfrkC3N20KKy9p19qnkamTwtU7TAuLFSvmBKIYiRO2sv9xPUMjE_xOEwUprKpf5iEFJBxlmTshStW4aIDwmlazFrpExhIhop94IeGEokleUhTOdpRFsSLiOKbhV9Bpa_tfq5FJ3cxBZ81GFyAzWXJAlQ5Ou8jONhPegjPoQ
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 1337
+byteArraysBody={
+    "CardCode": "118021",
+    "DocDate": "2020-02-26",
+    "DocDueDate": "2020-02-26",
+    "TaxDate": "2020-02-26",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResTest26c55556701",
+    "NumAtCard": "6697",
+    "ImportFileNum": "1946",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000693",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "82",
+            "Address": "118021 TIENDA S/N"
+        },
+        {
+            "ItemCode": "0500000623",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "82",
+            "Address": "118021 TIENDA S/N"
+        },
+        {
+            "ItemCode": "0500000639",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "82",
+            "Address": "118021 TIENDA S/N"
+        },
+        {
+            "ItemCode": "0500000642",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "82",
+            "Address": "118021 TIENDA S/N"
+        },
+        {
+            "ItemCode": "0500000643",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "82",
+            "Address": "118021 TIENDA S/N"
+        }
+    ]
+}
+=========================
+HTTP response:
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:46:21.272 [INFO ] i.g.h.e.GatlingHttpListener - Request 'Pedido' failed for user 2
+io.gatling.http.client.impl.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:21.273 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 2: i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:21.274 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+=========================
+Session:
+Session(Pedido,2,1582735336377,Map(ItemCode1 -> 0500000725, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 8, Address2 -> 20878B000 TIENDA, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> 85, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55557383, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> 85, Address3 -> 20878B000 TIENDA, Address5 -> 20878B000 TIENDA, CostingCode2 -> 100, ItemCode4 -> 0500000581, Address4 -> 20878B000 TIENDA, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> 85, nuevo_pedido_test -> {"DocEntry":"296340","DocNum":"29784","Ruta":"B1"}, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000579, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@626a0076,None), U_RSG_RUTA3 -> 85, CardCode -> 20878, tokenId -> 0cqN9Qoy52OFvlFcu54OgnNMpYUuLrpJlISpIKF8Ko6n-14wa8-tLvbF7BwepClAJpk7jDoIIWPB13eOpva_1XG0-WXzlHV0IbLXLlAZ_fQLK2mthNbHpaHop6xIIPTPiPPy_cqdu52VyrLYnjnZkicR7bn-Xlv_jjBUfNB2Ziio7L0F6VieccZucRVy7gNBMz8tL08hqI8TwsQ4gKLHEGfqLW0-KgqRobWrdvQVcYCpvfQ0eWY12bx62FYmfXGEdzmXZoZKA6QO8Kkoi0JQRymTVDzUecSkUhdMR3z5UvYjyk2i_HsPMtggZn8_5oFVb461RuyZysO1F0okqsMkHA, U_RSG_RUTA5 -> 85, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> 20878B000 TIENDA, ItemCode5 -> 0500000595, DocDate -> 2020-02-26, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000254, Quantity2 -> 12),22,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Pedido
+headers=
+Authorization: bearer 0cqN9Qoy52OFvlFcu54OgnNMpYUuLrpJlISpIKF8Ko6n-14wa8-tLvbF7BwepClAJpk7jDoIIWPB13eOpva_1XG0-WXzlHV0IbLXLlAZ_fQLK2mthNbHpaHop6xIIPTPiPPy_cqdu52VyrLYnjnZkicR7bn-Xlv_jjBUfNB2Ziio7L0F6VieccZucRVy7gNBMz8tL08hqI8TwsQ4gKLHEGfqLW0-KgqRobWrdvQVcYCpvfQ0eWY12bx62FYmfXGEdzmXZoZKA6QO8Kkoi0JQRymTVDzUecSkUhdMR3z5UvYjyk2i_HsPMtggZn8_5oFVb461RuyZysO1F0okqsMkHA
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 1331
+byteArraysBody={
+    "CardCode": "20878",
+    "DocDate": "2020-02-26",
+    "DocDueDate": "2020-02-26",
+    "TaxDate": "2020-02-26",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResTest26c55557383",
+    "NumAtCard": "6697",
+    "ImportFileNum": "1946",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000725",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "85",
+            "Address": "20878B000 TIENDA"
+        },
+        {
+            "ItemCode": "0500000254",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "85",
+            "Address": "20878B000 TIENDA"
+        },
+        {
+            "ItemCode": "0500000579",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "85",
+            "Address": "20878B000 TIENDA"
+        },
+        {
+            "ItemCode": "0500000581",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "85",
+            "Address": "20878B000 TIENDA"
+        },
+        {
+            "ItemCode": "0500000595",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "85",
+            "Address": "20878B000 TIENDA"
+        }
+    ]
+}
+=========================
+HTTP response:
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:46:22.963 [INFO ] i.g.h.e.GatlingHttpListener - Request 'Pedido' failed for user 4
+io.gatling.http.client.impl.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:22.964 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 4: i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+11:46:22.965 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+=========================
+Session:
+Session(Pedido,4,1582735336377,Map(ItemCode1 -> 0500000639, a3ee3878-6ceb-428f-8ff2-5780d61aff46 -> 7, Address2 -> F85B031 CASA, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, CostingCode1 -> 100, U_RSG_RUTA2 -> 97, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@37d1c81c, Quantity5 -> 10, Comments -> ResTest26c55558303, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> 97, Address3 -> F85B031 CASA, Address5 -> F85B031 CASA, CostingCode2 -> 100, ItemCode4 -> 0500000719, Address4 -> F85B031 CASA, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> 97, nuevo_pedido_test -> {"DocEntry":"296341","DocNum":"29785","Ruta":"87"}, TaxDate -> 2020-02-26, Quantity1 -> 10, ItemCode3 -> 0500000718, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@a66f539,None), U_RSG_RUTA3 -> 97, CardCode -> 59864, tokenId -> HWyJbKg_3WQYOP_ertOZRq3okf0j21VJRpf0_nC7XfUlyBI4eNherejR0oimEm0lrz52fuIBURyz30gLrxuebaD1HztXSpeNJJwKg59M1NhT_UrKo-JMU1x0sv93rFyXXKI_17ITU0M5jk0g1fktMF9vTWvRh4guSsqZOhFmfZnfNkuyFCvbnF9ylUDvlngtXdfbLfMMA6p5_ETLN4eL-8C_3iD_eElmi-XAqWYzx0UlmY1ZRbFKsc9GN_OA-oHcYqF1Xj0QAOo7DOXcE1hZDCnfBxEywfnn-GO_rTCH9loTYxBMYXy7H1kml_Z_H-K79C4dtoakHNijCuYWTwVetQ, U_RSG_RUTA5 -> 97, DocDueDate -> 2020-02-26, Quantity3 -> 2, Address1 -> F85B031 CASA, ItemCode5 -> 0500000725, DocDate -> 2020-02-26, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000702, Quantity2 -> 12),16,KO,List(ExitOnCompleteLoopBlock(a3ee3878-6ceb-428f-8ff2-5780d61aff46)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$499/584501954@12af459f)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Pedido
+headers=
+Authorization: bearer HWyJbKg_3WQYOP_ertOZRq3okf0j21VJRpf0_nC7XfUlyBI4eNherejR0oimEm0lrz52fuIBURyz30gLrxuebaD1HztXSpeNJJwKg59M1NhT_UrKo-JMU1x0sv93rFyXXKI_17ITU0M5jk0g1fktMF9vTWvRh4guSsqZOhFmfZnfNkuyFCvbnF9ylUDvlngtXdfbLfMMA6p5_ETLN4eL-8C_3iD_eElmi-XAqWYzx0UlmY1ZRbFKsc9GN_OA-oHcYqF1Xj0QAOo7DOXcE1hZDCnfBxEywfnn-GO_rTCH9loTYxBMYXy7H1kml_Z_H-K79C4dtoakHNijCuYWTwVetQ
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 1311
+byteArraysBody={
+    "CardCode": "59864",
+    "DocDate": "2020-02-26",
+    "DocDueDate": "2020-02-26",
+    "TaxDate": "2020-02-26",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResTest26c55558303",
+    "NumAtCard": "6697",
+    "ImportFileNum": "1946",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000639",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "97",
+            "Address": "F85B031 CASA"
+        },
+        {
+            "ItemCode": "0500000702",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "97",
+            "Address": "F85B031 CASA"
+        },
+        {
+            "ItemCode": "0500000718",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "97",
+            "Address": "F85B031 CASA"
+        },
+        {
+            "ItemCode": "0500000719",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "97",
+            "Address": "F85B031 CASA"
+        },
+        {
+            "ItemCode": "0500000725",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "97",
+            "Address": "F85B031 CASA"
+        }
+    ]
+}
+=========================
+HTTP response:
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:47:34.681 [INFO ] i.g.c.c.i.Injector - All users of scenario Pedido are stopped
+11:47:34.681 [INFO ] i.g.c.c.i.Injector - Stopping
+11:47:34.684 [INFO ] i.g.c.c.Controller - Injector has stopped, initiating graceful stop
+11:47:34.692 [INFO ] i.g.c.c.Controller - StatsEngineStopped
+11:47:34.780 [INFO ] i.g.c.s.LogFileReader - Collected ArrayBuffer(/home/manexware/QiriQ/resgasa/target/gatling/resgasasimulation-20200226164213766/simulation.log) from resgasasimulation-20200226164213766
+11:47:34.794 [INFO ] i.g.c.s.LogFileReader - First pass
+11:47:34.806 [INFO ] i.g.c.s.LogFileReader - First pass done: read 131 lines
+11:47:34.818 [INFO ] i.g.c.s.LogFileReader - Second pass
+11:47:34.888 [INFO ] i.g.c.s.LogFileReader - Second pass: read 131 lines

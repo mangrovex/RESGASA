@@ -1,0 +1,5 @@
+RUN	ResgasaSimulation	resgasasimulation	1582736509818	 	3.3.1
+USER	Facturas	1	START	1582736512258	1582736512258
+REQUEST	1		ResgasaToken	1582736512309	1582736512360	OK	 
+REQUEST	1		Factura	1582736512500	1582736572501	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+USER	Facturas	1	END	1582736512258	1582736573411

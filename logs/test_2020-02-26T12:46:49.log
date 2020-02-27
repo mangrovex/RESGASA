@@ -1,0 +1,19 @@
+12:46:49.662 [INFO ] i.g.c.c.GatlingConfiguration$ - Gatling will try to use 'gatling.conf' as custom config file.
+12:46:50.479 [INFO ] a.e.s.Slf4jLogger - Slf4jLogger started
+12:46:52.463 [INFO ] i.g.h.e.HttpEngine - Start warm up
+12:46:53.580 [INFO ] i.g.h.e.HttpEngine - Couldn't execute warm up request https://gatling.io: i.g.h.c.i.RequestTimeoutException: Request timeout after 1000 ms
+12:46:53.584 [INFO ] i.g.h.e.HttpEngine - Warm up done
+12:46:54.664 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initializing
+12:46:54.672 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initialized
+12:46:54.675 [INFO ] i.g.c.s.w.LogFileDataWriter - Initializing
+12:46:54.720 [INFO ] i.g.c.s.w.LogFileDataWriter - Initialized
+12:46:54.741 [INFO ] i.g.c.c.i.Injector - StoppedInjecting
+12:47:02.995 [INFO ] i.g.c.c.i.Injector - All users of scenario Entregas are stopped
+12:47:02.996 [INFO ] i.g.c.c.i.Injector - Stopping
+12:47:02.998 [INFO ] i.g.c.c.Controller - Injector has stopped, initiating graceful stop
+12:47:03.007 [INFO ] i.g.c.c.Controller - StatsEngineStopped
+12:47:03.086 [INFO ] i.g.c.s.LogFileReader - Collected ArrayBuffer(/home/manexware/QiriQ/resgasa/target/gatling/resgasasimulation-20200226174651988/simulation.log) from resgasasimulation-20200226174651988
+12:47:03.101 [INFO ] i.g.c.s.LogFileReader - First pass
+12:47:03.110 [INFO ] i.g.c.s.LogFileReader - First pass done: read 5 lines
+12:47:03.125 [INFO ] i.g.c.s.LogFileReader - Second pass
+12:47:03.154 [INFO ] i.g.c.s.LogFileReader - Second pass: read 5 lines

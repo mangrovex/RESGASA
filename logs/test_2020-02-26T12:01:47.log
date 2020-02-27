@@ -1,0 +1,82 @@
+12:01:47.901 [INFO ] i.g.c.c.GatlingConfiguration$ - Gatling will try to use 'gatling.conf' as custom config file.
+12:01:48.618 [INFO ] a.e.s.Slf4jLogger - Slf4jLogger started
+12:01:50.105 [INFO ] i.g.h.e.HttpEngine - Start warm up
+12:01:51.205 [INFO ] i.g.h.e.HttpEngine - Couldn't execute warm up request https://gatling.io: i.g.h.c.i.RequestTimeoutException: Request timeout after 1000 ms
+12:01:51.209 [INFO ] i.g.h.e.HttpEngine - Warm up done
+12:01:52.211 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initializing
+12:01:52.212 [INFO ] i.g.c.s.w.LogFileDataWriter - Initializing
+12:01:52.221 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initialized
+12:01:52.240 [INFO ] i.g.c.s.w.LogFileDataWriter - Initialized
+12:01:52.260 [INFO ] i.g.c.c.i.Injector - StoppedInjecting
+12:02:52.506 [INFO ] i.g.h.e.GatlingHttpListener - Request 'Factura' failed for user 1
+io.gatling.http.client.impl.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+12:02:52.514 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Factura' failed for user 1: i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+12:02:52.528 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Factura: KO i.g.h.c.i.RequestTimeoutException: Request timeout to ws.resgasa.com.ec/190.12.0.158:89 after 60000 ms
+=========================
+Session:
+Session(Facturas,1,1582736512258,Map(Quantity -> 1, U_HBT_GuiaPadre -> 783, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@319c97c6, Comments -> Fact6244a, tokenType -> bearer, 50ff250d-b016-41b4-b168-edb539d7a9e3 -> 0, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@401d4559,None), ItemCode -> 0500000400, CardCode -> 118115, tokenId -> -t_TUTfsOdYbze1UMXG-Llqa18DF75_jIe5011i-0G14t7YvMrDI-oxX26OPekzKGc-vH_nbzCoCTD7XiIxbjEMezZDXfKDoZISDPqNbCk1WtPGMUwmGCfOztjV07H7VDY_NkQMED9dj_meIF3klQdNP9HGJNToJDLHBxZpjC2iM35O1EeUnTIjbHAwVz28203m0Sfoim8fYnBw2l0DzpRZJM0UGCfqpi-acAHEbgnDHyH-wZYwigy0OlTITYf6NAKBp598dKjcpgPBFdMCDAUKh5WogwlkFQ7qxW6ute60Y1z56Uoeqaw6lcxc9JHcA-hmMaiV3cOLV9FgUITqrXA, DocDate -> 2020-02-26, WarehouseCode -> 442PRU2),125,KO,List(ExitOnCompleteLoopBlock(50ff250d-b016-41b4-b168-edb539d7a9e3)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$493/495051009@1878e402)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:89/odata/Factura
+headers=
+Authorization: bearer -t_TUTfsOdYbze1UMXG-Llqa18DF75_jIe5011i-0G14t7YvMrDI-oxX26OPekzKGc-vH_nbzCoCTD7XiIxbjEMezZDXfKDoZISDPqNbCk1WtPGMUwmGCfOztjV07H7VDY_NkQMED9dj_meIF3klQdNP9HGJNToJDLHBxZpjC2iM35O1EeUnTIjbHAwVz28203m0Sfoim8fYnBw2l0DzpRZJM0UGCfqpi-acAHEbgnDHyH-wZYwigy0OlTITYf6NAKBp598dKjcpgPBFdMCDAUKh5WogwlkFQ7qxW6ute60Y1z56Uoeqaw6lcxc9JHcA-hmMaiV3cOLV9FgUITqrXA
+Accept: application/json
+host: ws.resgasa.com.ec:89
+content-type: application/json
+content-length: 282
+byteArraysBody={
+    "CardCode": "118115",
+    "DocDate": "2020-02-26",
+    "U_HBT_GuiaPadre": 783,
+    "Comments": "Fact6244a",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000400",
+            "Quantity": "1",
+            "WarehouseCode": "442PRU2"
+        }
+    ]
+}
+=========================
+HTTP response:
+<<<<<<<<<<<<<<<<<<<<<<<<<
+12:02:52.532 [ERROR] i.g.c.a.b.SessionHookBuilder$$anon$1 - 'hook-3' crashed on session Session(Facturas,1,1582736512258,Map(Quantity -> 1, U_HBT_GuiaPadre -> 783, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:89, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@319c97c6, Comments -> Fact6244a, tokenType -> bearer, 50ff250d-b016-41b4-b168-edb539d7a9e3 -> 0, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@401d4559,None), ItemCode -> 0500000400, CardCode -> 118115, tokenId -> -t_TUTfsOdYbze1UMXG-Llqa18DF75_jIe5011i-0G14t7YvMrDI-oxX26OPekzKGc-vH_nbzCoCTD7XiIxbjEMezZDXfKDoZISDPqNbCk1WtPGMUwmGCfOztjV07H7VDY_NkQMED9dj_meIF3klQdNP9HGJNToJDLHBxZpjC2iM35O1EeUnTIjbHAwVz28203m0Sfoim8fYnBw2l0DzpRZJM0UGCfqpi-acAHEbgnDHyH-wZYwigy0OlTITYf6NAKBp598dKjcpgPBFdMCDAUKh5WogwlkFQ7qxW6ute60Y1z56Uoeqaw6lcxc9JHcA-hmMaiV3cOLV9FgUITqrXA, DocDate -> 2020-02-26, WarehouseCode -> 442PRU2),153,KO,List(ExitOnCompleteLoopBlock(50ff250d-b016-41b4-b168-edb539d7a9e3)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$493/495051009@1878e402), forwarding to the next one
+java.util.NoSuchElementException: No attribute named 'nueva_factura' is defined
+	at io.gatling.core.session.SessionAttribute.as(Session.scala:46)
+	at ResgasaTasks$.$anonfun$facturaTask$1(ResgasaTasks.scala:117)
+	at io.gatling.core.action.SessionHook.execute(SessionHook.scala:32)
+	at io.gatling.core.action.Action.$bang(Action.scala:38)
+	at io.gatling.core.action.Action.$bang$(Action.scala:38)
+	at io.gatling.core.action.SessionHook.io$gatling$core$action$ChainableAction$$super$$bang(SessionHook.scala:23)
+	at io.gatling.core.action.ChainableAction.$bang(Action.scala:63)
+	at io.gatling.core.action.ChainableAction.$bang$(Action.scala:61)
+	at io.gatling.core.action.builder.SessionHookBuilder$$anon$1.io$gatling$core$action$ExitableAction$$super$$bang(SessionHookBuilder.scala:29)
+	at io.gatling.core.action.ExitableAction.$bang(BlockExit.scala:141)
+	at io.gatling.core.action.ExitableAction.$bang$(BlockExit.scala:139)
+	at io.gatling.core.action.builder.SessionHookBuilder$$anon$1.$bang(SessionHookBuilder.scala:29)
+	at io.gatling.http.engine.response.RootNextExecutor.executeNextOnCrash(NextExecutor.scala:50)
+	at io.gatling.http.engine.response.DefaultResponseProcessor.handleFailure(ResponseProcessor.scala:73)
+	at io.gatling.http.engine.response.DefaultResponseProcessor.onComplete(ResponseProcessor.scala:59)
+	at io.gatling.http.engine.GatlingHttpListener.onThrowable(GatlingHttpListener.scala:105)
+	at io.gatling.http.client.impl.RequestTimeout$DefaultRequestTimeout.execute(RequestTimeout.java:59)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:139)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:510)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:518)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1044)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+12:02:53.412 [INFO ] i.g.c.c.i.Injector - All users of scenario Facturas are stopped
+12:02:53.413 [INFO ] i.g.c.c.i.Injector - Stopping
+12:02:53.416 [INFO ] i.g.c.c.Controller - Injector has stopped, initiating graceful stop
+12:02:53.433 [INFO ] i.g.c.c.Controller - StatsEngineStopped
+12:02:53.510 [INFO ] i.g.c.s.LogFileReader - Collected ArrayBuffer(/home/manexware/QiriQ/resgasa/target/gatling/resgasasimulation-20200226170149818/simulation.log) from resgasasimulation-20200226170149818
+12:02:53.520 [INFO ] i.g.c.s.LogFileReader - First pass
+12:02:53.529 [INFO ] i.g.c.s.LogFileReader - First pass done: read 5 lines
+12:02:53.540 [INFO ] i.g.c.s.LogFileReader - Second pass
+12:02:53.570 [INFO ] i.g.c.s.LogFileReader - Second pass: read 5 lines

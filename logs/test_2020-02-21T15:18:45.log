@@ -1,0 +1,271 @@
+15:18:45.986 [INFO ] i.g.c.c.GatlingConfiguration$ - Gatling will try to use 'gatling.conf' as custom config file.
+15:18:47.279 [INFO ] a.e.s.Slf4jLogger - Slf4jLogger started
+15:18:50.217 [INFO ] i.g.h.e.HttpEngine - Start warm up
+15:18:51.321 [INFO ] i.g.h.e.HttpEngine - Couldn't execute warm up request https://gatling.io: i.g.h.c.i.RequestTimeoutException: Request timeout to gatling.io/34.77.87.202:443 after 1000 ms
+15:18:51.324 [INFO ] i.g.h.e.HttpEngine - Warm up done
+15:18:53.015 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initializing
+15:18:53.025 [INFO ] i.g.c.s.w.LogFileDataWriter - Initializing
+15:18:53.030 [INFO ] i.g.c.s.w.ConsoleDataWriter - Initialized
+15:18:53.063 [INFO ] i.g.c.s.w.LogFileDataWriter - Initialized
+15:18:53.099 [INFO ] i.g.c.c.i.Injector - StoppedInjecting
+15:19:22.232 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 6: status.find.is(200), but actually found 500
+15:19:22.242 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO status.find.is(200), but actually found 500
+=========================
+Session:
+Session(Pedido,6,1582316333091,Map(ItemCode1 -> 0500000150, Address2 -> 117520 DEPOSITO, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:90, CostingCode1 -> 100, U_RSG_RUTA2 -> 85, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@3a9cb58c, Quantity5 -> 10, Comments -> ResgasaTest55557306, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> 85, Address3 -> 117520 DEPOSITO, Address5 -> 117520 DEPOSITO, CostingCode2 -> 100, ItemCode4 -> 0500000757, Address4 -> 117520 DEPOSITO, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> 85, nuevo_pedido_test -> {"error":{"code":"","message":"An error has occurred.","innererror":{"message":"Internal error (-2038) occurred","type":"System.Exception","stacktrace":""}}}, TaxDate -> 2020-02-12, Quantity1 -> 10, ItemCode3 -> 0500000744, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@79bd747d,None), U_RSG_RUTA3 -> 85, CardCode -> 117520, tokenId -> Y7Z0iW31McPs0YBI232xIMsVIQoK36rO9hXWGEjpr3EchOk2MvKKH-9t_R8memloBEKG_CWQISvk7U3l2QpdGDg7AyDbOZoO4DNJe4RzAIYeq37vn1H9VlyTCb62B4jXQwI1wRDa8yElAYWwFr6J0u5dhTsxsr4hCryW-BSvjSQCQw4T4q4xg9n-Xj2-ROX3nmZT6iSPN3FIayWJYLYV73wxRTSborL-lWCNMYXY8DuOjLytnS1oDRsBNg22yKJdYMXs4dhIM48bS2zcc_xTDZS8smzBMfzSObWJSs-a5Xd5BXTXGO5Ikjvf3pY423D78CR_bSHzc0By-sI3s3z41Q, U_RSG_RUTA5 -> 85, DocDueDate -> 2020-02-12, f6aa3c1b-f152-4e9e-a10f-d21bd3f9d54f -> 2, Quantity3 -> 2, Address1 -> 117520 DEPOSITO, ItemCode5 -> 0500000758, DocDate -> 2020-02-12, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000742, Quantity2 -> 12),14,KO,List(ExitOnCompleteLoopBlock(f6aa3c1b-f152-4e9e-a10f-d21bd3f9d54f)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$497/374646930@727313eb)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:90/odata/Pedido
+headers=
+Authorization: bearer Y7Z0iW31McPs0YBI232xIMsVIQoK36rO9hXWGEjpr3EchOk2MvKKH-9t_R8memloBEKG_CWQISvk7U3l2QpdGDg7AyDbOZoO4DNJe4RzAIYeq37vn1H9VlyTCb62B4jXQwI1wRDa8yElAYWwFr6J0u5dhTsxsr4hCryW-BSvjSQCQw4T4q4xg9n-Xj2-ROX3nmZT6iSPN3FIayWJYLYV73wxRTSborL-lWCNMYXY8DuOjLytnS1oDRsBNg22yKJdYMXs4dhIM48bS2zcc_xTDZS8smzBMfzSObWJSs-a5Xd5BXTXGO5Ikjvf3pY423D78CR_bSHzc0By-sI3s3z41Q
+Accept: application/json
+host: ws.resgasa.com.ec:90
+content-type: application/json
+content-length: 1328
+byteArraysBody={
+    "CardCode": "117520",
+    "DocDate": "2020-02-12",
+    "DocDueDate": "2020-02-12",
+    "TaxDate": "2020-02-12",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResgasaTest55557306",
+    "NumAtCard": "6697",
+    "ImportFileNum": "1946",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000150",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "85",
+            "Address": "117520 DEPOSITO"
+        },
+        {
+            "ItemCode": "0500000742",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "85",
+            "Address": "117520 DEPOSITO"
+        },
+        {
+            "ItemCode": "0500000744",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "85",
+            "Address": "117520 DEPOSITO"
+        },
+        {
+            "ItemCode": "0500000757",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "85",
+            "Address": "117520 DEPOSITO"
+        },
+        {
+            "ItemCode": "0500000758",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "85",
+            "Address": "117520 DEPOSITO"
+        }
+    ]
+}
+=========================
+HTTP response:
+status=
+500 Internal Server Error
+headers= 
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; odata.metadata=minimal
+Expires: -1
+Server: Microsoft-IIS/8.5
+OData-Version: 4.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 21 Feb 2020 20:19:22 GMT
+Content-Length: 157
+
+body=
+{"error":{"code":"","message":"An error has occurred.","innererror":{"message":"Internal error (-2038) occurred","type":"System.Exception","stacktrace":""}}}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:20:16.738 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 1: status.find.is(200), but actually found 500
+15:20:17.032 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO status.find.is(200), but actually found 500
+=========================
+Session:
+Session(Pedido,1,1582316333090,Map(ItemCode1 -> 0500000725, Address2 -> 117574 DOMICILIO, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:90, CostingCode1 -> 100, U_RSG_RUTA2 -> 83, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@3a9cb58c, Quantity5 -> 10, Comments -> ResgasaTest55556959, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> 83, Address3 -> 117574 DOMICILIO, Address5 -> 117574 DOMICILIO, CostingCode2 -> 100, ItemCode4 -> 0500000595, Address4 -> 117574 DOMICILIO, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> 83, nuevo_pedido_test -> {"error":{"code":"","message":"An error has occurred.","innererror":{"message":"Internal error (-2038) occurred","type":"System.Exception","stacktrace":""}}}, TaxDate -> 2020-02-12, Quantity1 -> 10, ItemCode3 -> 0500000581, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@5d6d4e43,None), U_RSG_RUTA3 -> 83, CardCode -> 117574, tokenId -> VRgWsSHcX9Kt6mOLuWwKVpYQkV9EpBPuGWjCOP6smvYSnodkZXm-bntHtQCf6_ZE7u0td33gVJFnzotaIZrxBAdtJ1kJUdhEvTNgro_11AOTUqAB-dgMOrNYw5D0VB2WxeImGtbDQHk13OHmlkpttEM09YB8ArQ-lo8bMNsKOxbRXfzqbe7Gx6h0b4YlaPx8XYpllWQWtxN25au_jDEeNXhKJDudngkLJCvC9bTX3mUmzc41lwrRdZWcWhPl8aZUFC9PTtVnM7ZWT0Jw3fVDGjz9q8f5_9O42l2oqdCFvocohLdnv5Xz55ECAJYBvGX6mi6zKlnhVaBhzm9VyUDg3Q, U_RSG_RUTA5 -> 83, DocDueDate -> 2020-02-12, f6aa3c1b-f152-4e9e-a10f-d21bd3f9d54f -> 5, Quantity3 -> 2, Address1 -> 117574 DOMICILIO, ItemCode5 -> 0500000599, DocDate -> 2020-02-12, ImportFileNum -> 1946, NumAtCard -> 6697, CostingCode5 -> 100, ItemCode2 -> 0500000579, Quantity2 -> 12),20,KO,List(ExitOnCompleteLoopBlock(f6aa3c1b-f152-4e9e-a10f-d21bd3f9d54f)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$497/374646930@727313eb)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:90/odata/Pedido
+headers=
+Authorization: bearer VRgWsSHcX9Kt6mOLuWwKVpYQkV9EpBPuGWjCOP6smvYSnodkZXm-bntHtQCf6_ZE7u0td33gVJFnzotaIZrxBAdtJ1kJUdhEvTNgro_11AOTUqAB-dgMOrNYw5D0VB2WxeImGtbDQHk13OHmlkpttEM09YB8ArQ-lo8bMNsKOxbRXfzqbe7Gx6h0b4YlaPx8XYpllWQWtxN25au_jDEeNXhKJDudngkLJCvC9bTX3mUmzc41lwrRdZWcWhPl8aZUFC9PTtVnM7ZWT0Jw3fVDGjz9q8f5_9O42l2oqdCFvocohLdnv5Xz55ECAJYBvGX6mi6zKlnhVaBhzm9VyUDg3Q
+Accept: application/json
+host: ws.resgasa.com.ec:90
+content-type: application/json
+content-length: 1333
+byteArraysBody={
+    "CardCode": "117574",
+    "DocDate": "2020-02-12",
+    "DocDueDate": "2020-02-12",
+    "TaxDate": "2020-02-12",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResgasaTest55556959",
+    "NumAtCard": "6697",
+    "ImportFileNum": "1946",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000725",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "83",
+            "Address": "117574 DOMICILIO"
+        },
+        {
+            "ItemCode": "0500000579",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "83",
+            "Address": "117574 DOMICILIO"
+        },
+        {
+            "ItemCode": "0500000581",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "83",
+            "Address": "117574 DOMICILIO"
+        },
+        {
+            "ItemCode": "0500000595",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "83",
+            "Address": "117574 DOMICILIO"
+        },
+        {
+            "ItemCode": "0500000599",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "83",
+            "Address": "117574 DOMICILIO"
+        }
+    ]
+}
+=========================
+HTTP response:
+status=
+500 Internal Server Error
+headers= 
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; odata.metadata=minimal
+Expires: -1
+Server: Microsoft-IIS/8.5
+OData-Version: 4.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 21 Feb 2020 20:20:16 GMT
+Content-Length: 157
+
+body=
+{"error":{"code":"","message":"An error has occurred.","innererror":{"message":"Internal error (-2038) occurred","type":"System.Exception","stacktrace":""}}}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:20:20.859 [INFO ] i.g.h.e.r.DefaultStatsProcessor - Request 'Pedido' failed for user 3: status.find.is(200), but actually found 500
+15:20:20.861 [DEBUG] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Pedido: KO status.find.is(200), but actually found 500
+=========================
+Session:
+Session(Pedido,3,1582316333090,Map(ItemCode1 -> 0500000727, Address2 -> 113228 BAR, gatling.http.cache.baseUrl -> http://ws.resgasa.com.ec:90, CostingCode1 -> 100, U_RSG_RUTA2 -> 202, CostingCode4 -> 100, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@3a9cb58c, Quantity5 -> 10, Comments -> ResgasaTest55556215, tokenType -> bearer, U_RSG_TIPOVTA -> 1, U_RSG_RUTA1 -> 202, Address3 -> 113228 BAR, Address5 -> 113228 BAR, CostingCode2 -> 100, ItemCode4 -> 0500000579, Address4 -> 113228 BAR, CostingCode3 -> 100, U_RSG_CODVEN_EXT -> 1028, Quantity4 -> 3, U_RSG_RUTA4 -> 202, nuevo_pedido_test -> {"error":{"code":"","message":"An error has occurred.","innererror":{"message":"Internal error (-2038) occurred","type":"System.Exception","stacktrace":""}}}, TaxDate -> 2020-02-12, Quantity1 -> 10, ItemCode3 -> 0500000254, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.ReferenceCountedOpenSslClientContext@29471faa,None), U_RSG_RUTA3 -> 202, CardCode -> 113228, tokenId -> RP5BdIse48yLvyXsD6t2g77oW2I3G2-Ojzr8dtaCqHisrtQZSGvJp2adp1eKOYk4Z3oP4spLFGXUIR834Oth665ynMmbGwiylvrXhpBRyi4IFKOulku9zK4ILIHPfqiOPtTge7FWbR-KDWQNMQRPSHzltLDqPQBrpslWxLgU1HsexJlIfJvxjry3AEsZHOZTWc_gdem4ET-yZ8GHhH_M_hiycu0StMef4KtDxHUmTovx5mLlr2dcB3fZltYbhwZyTd9biQJzdG5EDWAL8skatDBY-W_vIybb2zkQALir5iGTQMpozXT45DPTbnB1AgUSYTBqzMAT58bj9mhW9WwSNA, U_RSG_RUTA5 -> 202, DocDueDate -> 2020-02-12, f6aa3c1b-f152-4e9e-a10f-d21bd3f9d54f -> 5, Quantity3 -> 2, Address1 -> 113228 BAR, ItemCode5 -> 0500000581, DocDate -> 2020-02-12, ImportFileNum -> 1801, NumAtCard -> 6552, CostingCode5 -> 100, ItemCode2 -> 0500000155, Quantity2 -> 12),19,KO,List(ExitOnCompleteLoopBlock(f6aa3c1b-f152-4e9e-a10f-d21bd3f9d54f)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$497/374646930@727313eb)
+=========================
+HTTP request:
+POST http://ws.resgasa.com.ec:90/odata/Pedido
+headers=
+Authorization: bearer RP5BdIse48yLvyXsD6t2g77oW2I3G2-Ojzr8dtaCqHisrtQZSGvJp2adp1eKOYk4Z3oP4spLFGXUIR834Oth665ynMmbGwiylvrXhpBRyi4IFKOulku9zK4ILIHPfqiOPtTge7FWbR-KDWQNMQRPSHzltLDqPQBrpslWxLgU1HsexJlIfJvxjry3AEsZHOZTWc_gdem4ET-yZ8GHhH_M_hiycu0StMef4KtDxHUmTovx5mLlr2dcB3fZltYbhwZyTd9biQJzdG5EDWAL8skatDBY-W_vIybb2zkQALir5iGTQMpozXT45DPTbnB1AgUSYTBqzMAT58bj9mhW9WwSNA
+Accept: application/json
+host: ws.resgasa.com.ec:90
+content-type: application/json
+content-length: 1308
+byteArraysBody={
+    "CardCode": "113228",
+    "DocDate": "2020-02-12",
+    "DocDueDate": "2020-02-12",
+    "TaxDate": "2020-02-12",
+    "U_RSG_TIPOVTA": "1",
+    "U_RSG_CODVEN_EXT": "1028",
+    "Comments": "ResgasaTest55556215",
+    "NumAtCard": "6552",
+    "ImportFileNum": "1801",
+    "DocumentLines": [
+        {
+            "ItemCode": "0500000727",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "113228 BAR"
+        },
+        {
+            "ItemCode": "0500000155",
+            "Quantity": "12",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "113228 BAR"
+        },
+        {
+            "ItemCode": "0500000254",
+            "Quantity": "2",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "113228 BAR"
+        },
+        {
+            "ItemCode": "0500000579",
+            "Quantity": "3",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "113228 BAR"
+        },
+        {
+            "ItemCode": "0500000581",
+            "Quantity": "10",
+            "CostingCode" : "100",
+            "U_RSG_RUTA": "202",
+            "Address": "113228 BAR"
+        }
+    ]
+}
+=========================
+HTTP response:
+status=
+500 Internal Server Error
+headers= 
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; odata.metadata=minimal
+Expires: -1
+Server: Microsoft-IIS/8.5
+OData-Version: 4.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 21 Feb 2020 20:20:20 GMT
+Content-Length: 157
+
+body=
+{"error":{"code":"","message":"An error has occurred.","innererror":{"message":"Internal error (-2038) occurred","type":"System.Exception","stacktrace":""}}}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:21:09.096 [INFO ] i.g.c.c.i.Injector - All users of scenario Pedido are stopped
+15:21:09.097 [INFO ] i.g.c.c.i.Injector - Stopping
+15:21:09.104 [INFO ] i.g.c.c.Controller - Injector has stopped, initiating graceful stop
+15:21:09.112 [INFO ] i.g.c.c.Controller - StatsEngineStopped
+15:21:09.199 [INFO ] i.g.c.s.LogFileReader - Collected ArrayBuffer(/home/manexware/QiriQ/resgasa/target/gatling/resgasasimulation-20200221201849495/simulation.log) from resgasasimulation-20200221201849495
+15:21:09.214 [INFO ] i.g.c.s.LogFileReader - First pass
+15:21:09.227 [INFO ] i.g.c.s.LogFileReader - First pass done: read 131 lines
+15:21:09.247 [INFO ] i.g.c.s.LogFileReader - Second pass
+15:21:09.387 [INFO ] i.g.c.s.LogFileReader - Second pass: read 131 lines
