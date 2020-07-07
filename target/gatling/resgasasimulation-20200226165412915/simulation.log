@@ -1,5 +1,0 @@
-RUN	ResgasaSimulation	resgasasimulation	1582736052915	 	3.3.1
-USER	Facturas	1	START	1582736055433	1582736055433
-REQUEST	1		ResgasaToken	1582736055502	1582736055534	OK	 
-ERROR	Factura: Failed to build request: No attribute named 'ItemCode1' is defined 	1582736055637
-USER	Facturas	1	END	1582736055433	1582736056594

@@ -50,27 +50,6 @@ object ResgasaTasks{
            |            "CostingCode" : "$${CostingCode2}",
            |            "U_RSG_RUTA": "$${U_RSG_RUTA2}",
            |            "Address": "$${Address2}"
-           |        },
-           |        {
-           |            "ItemCode": "$${ItemCode3}",
-           |            "Quantity": "$${Quantity3}",
-           |            "CostingCode" : "$${CostingCode3}",
-           |            "U_RSG_RUTA": "$${U_RSG_RUTA3}",
-           |            "Address": "$${Address3}"
-           |        },
-           |        {
-           |            "ItemCode": "$${ItemCode4}",
-           |            "Quantity": "$${Quantity4}",
-           |            "CostingCode" : "$${CostingCode4}",
-           |            "U_RSG_RUTA": "$${U_RSG_RUTA4}",
-           |            "Address": "$${Address4}"
-           |        },
-           |        {
-           |            "ItemCode": "$${ItemCode5}",
-           |            "Quantity": "$${Quantity5}",
-           |            "CostingCode" : "$${CostingCode5}",
-           |            "U_RSG_RUTA": "$${U_RSG_RUTA5}",
-           |            "Address": "$${Address5}"
            |        }
            |    ]
            |}""".stripMargin))
@@ -80,8 +59,6 @@ object ResgasaTasks{
   )
     .exec((session: Session) => {
       println("============ Nuevo Pedido ============")
-      println(session)
-      println("============ Respuesta Pedido ============")
       println(session("nuevo_pedido_test").as[String])
       session
     })
@@ -101,20 +78,8 @@ object ResgasaTasks{
            |    "DocumentLines": [
            |        {
            |            "ItemCode": "$${ItemCode1}",
-           |            "Quantity": "$${Quantity1}",
-           |            "WarehouseCode": "$${WarehouseCode1}"
-           |        },
-           |        {
-           |            "ItemCode": "$${ItemCode2}",
-           |            "Quantity": "$${Quantity2}",
-           |            "WarehouseCode": "$${WarehouseCode2}"
-           |        },
-           |        {
-           |            "ItemCode": "$${ItemCode3}",
-           |            "Quantity": "$${Quantity3}",
-           |            "WarehouseCode": "$${WarehouseCode3}"
+           |            "Quantity": "$${Cantidad1}"
            |        }
-           |
            |    ]
            |}""".stripMargin))
       .asJson
@@ -123,8 +88,6 @@ object ResgasaTasks{
   )
     .exec((session: Session) => {
       println("============ Nueva Factura ============")
-      println(session)
-      println("============ Respuesta Factura ============")
       println(session("nueva_factura").as[String])
       session
     })
@@ -155,8 +118,6 @@ object ResgasaTasks{
   )
     .exec((session: Session) => {
       println("============ Nuevo Retorno ============")
-      println(session)
-      println("============ Respuesta Retorno ============")
       println(session("nuevo_retorno").as[String])
       session
     })
@@ -222,8 +183,6 @@ object ResgasaTasks{
   )
     .exec((session: Session) => {
       println("============ Nueva Devolucion ============")
-      println(session)
-      println("============ Respuesta Devolucion ============")
       println(session("nueva_devolucion").as[String])
       session
     })
@@ -255,8 +214,6 @@ object ResgasaTasks{
   )
     .exec((session: Session) => {
       println("============ Nueva Entrada Mercancia ============")
-      println(session)
-      println("============ Respuesta Entrada Mercaderia ============")
       println(session("nueva_entrada_mercancia").as[String])
       session
     })
@@ -288,8 +245,6 @@ object ResgasaTasks{
   )
     .exec((session: Session) => {
       println("============ Nueva Entrega ============")
-      println(session)
-      println("============ Respuesta Entrega ============")
       println(session("nueva_entrega").as[String])
       session
     })

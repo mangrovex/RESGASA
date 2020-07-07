@@ -1,4 +1,3 @@
-
 import io.gatling.core.Predef.{constantUsersPerSec, global, scenario, _}
 import io.gatling.http.Predef.{http, status, _}
 
@@ -140,14 +139,13 @@ class ResgasaSimulation extends Simulation {
 
 
   setUp(
-    //scnToken.inject(atOnceUsers(300)),
+    scnToken.inject(atOnceUsers(300)),
     //scnFacturas.inject(atOnceUsers(20))
-    //scnPedido.inject(atOnceUsers(10))
+    scnPedido.inject(atOnceUsers(10))
     //scnRetorno.inject(atOnceUsers(1))
-    scnEntregas.inject(atOnceUsers(10))
+    //scnEntregas.inject(atOnceUsers(10))
     //scnDevoluciones.inject(atOnceUsers(100))
   ).protocols(httpProtocol)
-// constantUsersPerSec(rate) during(duration) randomized
-//splitUsers(100) into(rampUsers(5) over(10 seconds)) separatedBy atOnceUsers(5)
+  // constantUsersPerSec(rate) during(duration) randomized
+  //splitUsers(100) into(rampUsers(5) over(10 seconds)) separatedBy atOnceUsers(5)
 }
-
